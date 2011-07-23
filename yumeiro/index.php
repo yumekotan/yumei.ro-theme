@@ -13,7 +13,7 @@
             "menu_class" => "navigation"
         )); ?>
         <hr size="1"/>
-        <? dynamic_sidebar('nav-sidebar'); ?>
+        <? dynamic_sidebar('navigation-sidebar'); ?>
     </div>
 
     <div class="column" id="content-column">
@@ -56,3 +56,5 @@
         <? dynamic_sidebar("content-sidebar"); ?>
     </div>
 </div><!-- END BODY -->
+
+<? get_footer(); ?>

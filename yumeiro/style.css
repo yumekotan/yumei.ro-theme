@@ -19,11 +19,78 @@ html, body, p {
     margin: 0;
     padding: 0;
     display: block;
-    font: 13px/18px "Rosario", "Verdana", sans-serif;
+    font: 16px/24px "Rosario", "Verdana", sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
     margin: 0;
     padding: 0;
-    font-family: "Verela Round", "Verdana", sans-serif;
+    line-height: 100%;
+    font-weight: normal;
+    font-family: "Varela Round", "Verdana", sans-serif;
+}
+
+    h1 a, h2 a, h3 a, h4 a, h5 a {
+        color: #000;
+        text-decoration: none;
+    }
+
+h1 {
+    line-height: 150px;
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#header {
+    background: #F00;
+    height: 150px;
+    overflow: hidden;
+}
+
+#container {
+    margin: 0;
+}
+
+#header, #body, #footer {
+    width: 960px;
+}
+
+#body {
+    overflow: hidden;
+}
+
+.column {
+    float: left;
+    min-height: 300px;
+    padding-bottom: 500px;
+    margin-bottom: -500px;
+}
+
+    .column#left-column {
+        width: 200px;
+        background: #00F;
+        min-height: 600px;
+    }
+
+        .column#left-column a {
+            color: #FFF;
+        }
+
+    .column#content-column {
+        width: 560px;
+        background: #888;
+    }
+
+    .column#sidebar-column {
+        width: 200px;
+        background: #A0A;
+        min-height: 300px;
+    }
+
+#footer {
+    clear: both;
+    background: #0AA;
 }
