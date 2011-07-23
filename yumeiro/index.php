@@ -53,6 +53,6 @@
     </div>
 
     <div class="column" id="sidebar-column">
-        <? dynamic_sidebar("content-sidebar") ?>
+        <? dynamic_sidebar("content-sidebar"); ?>
     </div>
 </div><!-- END BODY -->
