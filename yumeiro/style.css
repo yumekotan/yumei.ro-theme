@@ -1,0 +1,29 @@
+/*
+ * Theme Name: yumei.ro
+ * Theme URI: http://yumei.ro/
+ * Description: The theme for the yumei.ro website.
+ * Author: yumekotan
+ * Author URI: http://yumei.ro/
+ * Version: 0.1
+ * Tags: theme, japanese
+ *
+ * License:
+ * License URI:
+ *
+ * */
+
+@import url(http://fonts.googleapis.com/css?family=Varela+Round&v2);
+@import url(http://fonts.googleapis.com/css?family=Rosario&v2);
+
+html, body, p {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font: 13px/18px "Rosario", "Verdana", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+    font-family: "Verela Round", "Verdana", sans-serif;
+}
