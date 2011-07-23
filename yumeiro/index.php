@@ -31,7 +31,7 @@
                 }
             ?>
             <? if ($is_list) { ?><ul class="post-list"><? } ?>
-            <? while (have_posts()) { the_post(); ?>
+            <? while (have_posts()) { the_post(); } ?>
             <? if ($is_list) { ?>
             <li class="post">
             <? } else { ?>
