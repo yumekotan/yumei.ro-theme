@@ -89,8 +89,8 @@ ul, li {
 }
 
     .column#left-column {
-        width: 222px;
-		margin: 228px 25px 0px 23px;
+        width: 220px;
+		margin: 228px 25px 0px 25px;
 		padding: 5px;
 		background: url('sidebarbg.png') repeat;
 		border: 1px solid #fed3ae;
@@ -101,7 +101,7 @@ ul, li {
         }
 
     .column#content-column {
-        width: 633px;
+        width: 631px;
 		padding: 10px;
 		background: url('contentbg.png') repeat;
 		border: 1px solid #fed3ae;
