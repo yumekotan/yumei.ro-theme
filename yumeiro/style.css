@@ -58,6 +58,10 @@ span.date {
 	font-weight: bold;
 }
 
+strong, b {
+	color: #fdb37c;
+}
+
 h2 {
 	height: 27px;
 	margin: 0px;
@@ -126,10 +130,6 @@ ul, li {
 		text-align: justify;
 		line-height: 12px;
     }
-
-        .column#left-column a {
-            color: #FFF;
-        }
 
     .column#content-column {
         width: 631px;
