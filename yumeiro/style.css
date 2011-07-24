@@ -20,7 +20,7 @@ html, body, p {
 }
 
 body {
-	background: #fef4e0 url('/images/background.jpg') no-repeat left top;
+	background: #fef4e0 url('images/background.jpg') no-repeat left top;
 }
 
 h1, h2, h3, h4, h5 {
@@ -42,7 +42,7 @@ h2 {
 	height: 39px;
 	margin: 0px;
 	padding: 12px 0px 0px 0px;
-	background: url('/images/sidebarheader.png') no-repeat center top;
+	background: url('images/sidebarheader.png') no-repeat center top;
 	font: bold 12pt "Verdana", sans-serif;
 	color: #ffffff;
 	text-align: center;
@@ -92,7 +92,7 @@ ul, li {
         width: 220px;
 		margin: 228px 25px 0px 25px;
 		padding: 5px;
-		background: url('/images/sidebarbg.png') repeat;
+		background: url('images/sidebarbg.png') repeat;
 		border: 1px solid #fed3ae;
     }
 
@@ -103,7 +103,7 @@ ul, li {
     .column#content-column {
         width: 631px;
 		padding: 10px;
-		background: url('/images/contentbg.png') repeat;
+		background: url('images/contentbg.png') repeat;
 		border: 1px solid #fed3ae;
 		color: #ffffff;
 		text-shadow: 1px 1px #fdb37c;
