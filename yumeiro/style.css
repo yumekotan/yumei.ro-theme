@@ -44,7 +44,7 @@ h1 {
 h2 {
 	margin: 0;
 	padding: 5px;
-	background: url('sidebarheader.png');
+	background: url('sidebarheader.png') no-repeat center top;
 	font: 14pt "Verdana", sans-serif;
 	color: #ffffff;
 	text-align: center;
