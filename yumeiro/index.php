@@ -8,11 +8,6 @@
 
 <div id="body">
     <div class="column" id="left-column">
-        <? wp_nav_menu(array(
-            "menu" => "navigation",
-            "menu_class" => "navigation"
-        )); ?>
-        <hr size="1"/>
         <? dynamic_sidebar('navigation-sidebar'); ?>
     </div>
 
