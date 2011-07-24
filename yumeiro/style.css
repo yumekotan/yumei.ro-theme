@@ -11,41 +11,60 @@
  * License URI:
  *
  * */
+ 
+@import url(http://fonts.googleapis.com/css?family=Arvo&v2);
+@import url(http://fonts.googleapis.com/css?family=Molengo&v2);
 
 html, body, p {
     margin: 0;
     padding: 0;
     display: block;
-    font: 10pt "Verdana", sans-serif;
+    font: "Molengo", sans-serif;
 }
 
 body {
 	background: #fef4e0 url('images/background.jpg') no-repeat left top;
 }
 
-h1, h2, h3, h4, h5 {
-    margin: 0;
-    line-height: 100%;
+a
+{
+	color: #fdb37c;
+	font-weight: bold;
 }
 
-    h1 a, h2 a, h3 a, h4 a, h5 a {
-        color: #000;
-        text-decoration: none;
-    }
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: underline;}
 
-h1 {
-    font-size: 24px;
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+h1.post-title {
+    font: bold 24px "Molengo", sans-serif;
 	color: #fdb37c;
+	text-shadow: 1px 1px #ffffff;
+	text-decoration: none;
+}
+
+.post-title a:hover {text-decoration: none;}
+.post-title a:active {text-decoration: none;}
+
+span.date {
+	color: #fdb37c;
+	font-weight: bold;
 }
 
 h2 {
-	height: 39px;
+	height: 27px;
 	margin: 0px;
 	padding: 12px 0px 0px 0px;
 	background: url('images/sidebarheader.png') no-repeat center top;
-	font: bold 12pt "Verdana", sans-serif;
+	font: bold 16px "Arvo", serif;
 	color: #ffffff;
 	text-align: center;
+	text-shadow: 1px 1px #ffd2ae;
 }
 
 ul, li {
@@ -72,6 +91,12 @@ ul, li {
 	z-index: 10;
 }
 
+.faerie{
+	position: relative;
+	float: right;
+	z-index: 10;
+}
+
 #container {
     margin: 0;
 	padding: 0;
@@ -94,6 +119,10 @@ ul, li {
 		padding: 5px;
 		background: url('images/sidebarbg.png') repeat;
 		border: 1px solid #fed3ae;
+		color: #715a4a;
+		font: 13px "Molengo", sans-serif;
+		text-align: justify;
+		line-height: 13px;
     }
 
         .column#left-column a {
@@ -105,12 +134,15 @@ ul, li {
 		padding: 10px;
 		background: url('images/contentbg.png') repeat;
 		border: 1px solid #fed3ae;
-		color: #ffffff;
-		text-shadow: 1px 1px #fdb37c;
+		color: #715a4a;
+	    font: 14px "Molengo", sans-serif;
+		line-height: 14px;
     }
 
 #footer {
     clear: both;
-	font: 10pt "Verdana", sans-serif;
+	color: #fdb37c;
+	font: 12px "Molengo", sans-serif;
+	line-height: 12px;
 	text-align: center;
 }

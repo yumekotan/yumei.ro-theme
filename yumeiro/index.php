@@ -12,6 +12,7 @@
     </div>
 
     <div class="column" id="content-column">
+		<img class="title" src="images/faerie.png" alt="yumei.ro ????" />
         <? if ( !have_posts() ) { ?>
             <div class="post">
                 <h1 class="post-title">Sorry...</h1>
