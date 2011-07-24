@@ -79,6 +79,10 @@ ul, li {
 	list-style-type: none;
 }
 
+ul.widgets li.widget {
+	padding: 5;
+}
+
 #container, #footer {
     width: 960px;
 }
