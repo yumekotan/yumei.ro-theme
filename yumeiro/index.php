@@ -8,7 +8,7 @@
 
 <div id="body">
     <div class="column" id="left-column">
-        <ul class="widgets"><? dynamic_sidebar('navigation-sidebar'); ?></ul>
+        <? dynamic_sidebar('navigation-sidebar'); ?>
     </div>
 
     <div class="column" id="content-column">
