@@ -12,8 +12,6 @@
  *
  * */
 
-@import url(http://fonts.googleapis.com/css?family=Cedarville+Cursive&v2);
-
 html, body, p {
     margin: 0;
     padding: 0;
@@ -63,6 +61,7 @@ ul, li {
 #header {
     height: 191px;
 	margin-bottom: -75px;
+	padding-right: 25px;
 	padding-bottom: 75px;
 }
 
