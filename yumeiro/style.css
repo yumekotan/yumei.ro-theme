@@ -37,6 +37,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
     font-size: 24px;
+	color: #fdb37c;
 }
 
 h2 {
@@ -61,6 +62,15 @@ ul, li {
 
 #header {
     height: 191px;
+	margin-bottom: -75px;
+	padding-bottom: 75px;
+}
+
+.title{
+	position: relative;
+	top: 166px;
+	float: right;
+	z-index: 10;
 }
 
 #container {

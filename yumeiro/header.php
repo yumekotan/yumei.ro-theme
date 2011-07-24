@@ -11,4 +11,5 @@
         <div id="container">
 
             <div id="header">
+			<img class="title" src="title.png" alt="yumei.ro 「夢色」" />
 			</div> <!-- END HEADER -->
