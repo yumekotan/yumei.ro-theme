@@ -18,7 +18,7 @@ html, body, p {
     margin: 0;
     padding: 0;
     display: block;
-    font: 12pt "Verdana", sans-serif;
+    font: 10pt "Verdana", sans-serif;
 	color: #000000;
 }
 
@@ -42,10 +42,11 @@ h1 {
 }
 
 h2 {
+	height: 39px;
 	margin: 0;
 	padding: 5px;
 	background: url('sidebarheader.png') no-repeat center top;
-	font: 14pt "Verdana", sans-serif;
+	font: 14pt "Cedarville Cursive", sans-serif;
 	color: #ffffff;
 	text-align: center;
 }
@@ -79,7 +80,7 @@ h2 {
         width: 232px;
 		margin: 228px 25px 0px 25px;
 		background: url('sidebarbg.png') repeat;
-		border: 1px solid #fd8739;
+		border: 1px solid #fdb37c;
     }
 
         .column#left-column a {
@@ -88,9 +89,9 @@ h2 {
 
     .column#content-column {
         width: 653px;
-		margin: 0px 0px 0px 25px;
+		margin: 0;
 		background: url('contentbg.png') repeat;
-		border: 1px solid #fd8739;
+		border: 1px solid #fdb37c;
     }
 
 #footer {
