@@ -44,7 +44,7 @@ h2 {
 	margin: 0px;
 	padding: 12px 0px 0px 0px;
 	background: url('sidebarheader.png') no-repeat center top;
-	font: 12pt "Verdana", sans-serif;
+	font: bold 12pt "Verdana", sans-serif;
 	color: #ffffff;
 	text-align: center;
 }
@@ -96,7 +96,8 @@ ul, li {
 		padding: 10px;
 		background: url('contentbg.png') repeat;
 		border: 1px solid #fed3ae;
-		color: #fdb37c;
+		color: #ffffff;
+		text-shadow: 1px 1px #fdb37c;
     }
 
 #footer {
