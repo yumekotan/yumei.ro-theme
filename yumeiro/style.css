@@ -19,7 +19,6 @@ html, body, p {
     padding: 0;
     display: block;
     font: 10pt "Verdana", sans-serif;
-	color: #000000;
 }
 
 body {
@@ -81,7 +80,7 @@ ul, li {
 }
 
     .column#left-column {
-        width: 232px;
+        width: 222px;
 		margin: 228px 25px 0px 23px;
 		padding: 5px;
 		background: url('sidebarbg.png') repeat;
@@ -93,9 +92,8 @@ ul, li {
         }
 
     .column#content-column {
-        width: 653px;
-		margin-right: 25px;
-		padding: 5px;
+        width: 633px;
+		padding: 10px;
 		background: url('contentbg.png') repeat;
 		border: 1px solid #fed3ae;
 		color: #fdb37c;
