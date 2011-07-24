@@ -1,5 +1,5 @@
             <div id="footer">
-                <p>&copy;Copyright <?php echo date('Y'); ?> Amy Marshall</p>
+                <p>yumei.ro &copy; <?php echo date('Y'); ?> Amy Marshall</p>
                 <? wp_nav_menu(array(
                         "menu" => "footer",
                         "menu_class" => "footer-links"

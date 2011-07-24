@@ -14,6 +14,8 @@
  
 @import url(http://fonts.googleapis.com/css?family=Arvo&v2);
 @import url(http://fonts.googleapis.com/css?family=Molengo&v2);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans&v2);
+@import url(http://fonts.googleapis.com/css?family=Nobile&v2);
 
 html, body, p {
     margin: 0;
@@ -42,7 +44,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1.post-title {
-    font: bold 24px "Molengo", sans-serif;
+    font: bold 24px "PT Sans", sans-serif;
 	color: #fdb37c;
 	text-shadow: 1px 1px #ffffff;
 	text-decoration: none;
@@ -120,9 +122,9 @@ ul, li {
 		background: url('images/sidebarbg.png') repeat;
 		border: 1px solid #fed3ae;
 		color: #715a4a;
-		font: 13px "Molengo", sans-serif;
+		font: 12px "PT Sans", sans-serif;
 		text-align: justify;
-		line-height: 13px;
+		line-height: 12px;
     }
 
         .column#left-column a {
@@ -135,14 +137,14 @@ ul, li {
 		background: url('images/contentbg.png') repeat;
 		border: 1px solid #fed3ae;
 		color: #715a4a;
-	    font: 14px "Molengo", sans-serif;
+	    font: 14px "PT Sans", sans-serif;
 		line-height: 14px;
     }
 
 #footer {
     clear: both;
 	color: #fdb37c;
-	font: 12px "Molengo", sans-serif;
+	font: 12px "PT Sans", sans-serif;
 	line-height: 12px;
 	text-align: center;
 }
