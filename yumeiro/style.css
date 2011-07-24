@@ -13,15 +13,13 @@
  * */
  
 @import url(http://fonts.googleapis.com/css?family=Arvo&v2);
-@import url(http://fonts.googleapis.com/css?family=Molengo&v2);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans&v2);
-@import url(http://fonts.googleapis.com/css?family=Nobile&v2);
 
 html, body, p {
     margin: 0;
     padding: 0;
     display: block;
-    font: "Molengo", sans-serif;
+    font: "PT Sans", sans-serif;
 }
 
 body {
@@ -77,10 +75,6 @@ ul, li {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-}
-
-ul.widgets li.widget {
-	padding: 5;
 }
 
 #container, #footer {
