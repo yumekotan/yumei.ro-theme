@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
     <head>
-        <title>Yumei.ro</title>
+        <title>yumei.ro 「夢色」 what color is your dream?</title>
         <link href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" rel="stylesheet"/>
         <?php wp_head(); ?>
     </head>

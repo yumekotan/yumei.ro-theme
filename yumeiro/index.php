@@ -19,7 +19,7 @@
     <div class="column" id="content-column">
         <? if ( !have_posts() ) { ?>
             <div class="post">
-                <h2 class="post-title">Sorry...</h2>
+                <h1 class="post-title">Sorry...</h1>
                 <hr size="1"/>
                 <p>This page does not exist or has been deleted.</p>
             </div>
@@ -37,9 +37,9 @@
             <? } else { ?>
             <div class="post">
             <? } ?>
-                <h2 class="post-title">
+                <h1 class="post-title">
                     <a href="<? the_permalink(); ?>"><? the_title(); ?></a>
-                </h2>
+                </h1>
                 <p class="post-info">
                     Written by 
                     <span class="author"><? the_author_link(); ?></span>
@@ -52,9 +52,6 @@
         <? if ($is_list) { ?></ul><? } ?>
     </div>
 
-    <div class="column" id="sidebar-column">
-        <? dynamic_sidebar("content-sidebar"); ?>
-    </div>
 </div><!-- END BODY -->
 
 <? get_footer(); ?>

@@ -46,7 +46,7 @@ h2 {
 	margin: 0;
 	padding: 5px;
 	background: url('sidebarheader.png') no-repeat center top;
-	font: 14pt "Cedarville Cursive", sans-serif;
+	font: 12pt "Verdana", sans-serif;
 	color: #ffffff;
 	text-align: center;
 }
@@ -80,7 +80,7 @@ h2 {
         width: 232px;
 		margin: 228px 25px 0px 25px;
 		background: url('sidebarbg.png') repeat;
-		border: 1px solid #fdb37c;
+		border: 1px solid #fed3ae;
     }
 
         .column#left-column a {
@@ -91,7 +91,7 @@ h2 {
         width: 653px;
 		margin: 0;
 		background: url('contentbg.png') repeat;
-		border: 1px solid #fdb37c;
+		border: 1px solid #fed3ae;
     }
 
 #footer {
