@@ -18,8 +18,12 @@ html, body, p {
     margin: 0;
     padding: 0;
     display: block;
+    font: 12pt "Verdana", sans-serif;
+	color: #000000;
+}
+
+body {
 	background: #fef4e0 url('background.jpg') no-repeat left top;
-    font: 18pt "Verdana", sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -41,7 +45,7 @@ h2 {
 	margin: 0;
 	padding: 5px;
 	background: url('sidebarheader.png');
-	font: 18pt "Verdana", sans-serif;
+	font: 14pt "Verdana", sans-serif;
 	color: #ffffff;
 	text-align: center;
 }
@@ -73,10 +77,9 @@ h2 {
 
     .column#left-column {
         width: 232px;
-		margin: 25px 25px 228px 0px;
-		background: #ffbc8c;
+		margin: 228px 25px 0px 25px;
+		background: url('sidebarbg.png') repeat;
 		border: 1px solid #fd8739;
-		opacity: 0.6;
     }
 
         .column#left-column a {
@@ -85,10 +88,9 @@ h2 {
 
     .column#content-column {
         width: 653px;
-		margin: 0px 25px 0px 0px;
-		background: #ffbc8c;
+		margin: 0px 0px 0px 25px;
+		background: url('contentbg.png') repeat;
 		border: 1px solid #fd8739;
-		opacity: 0.3;
     }
 
 #footer {
