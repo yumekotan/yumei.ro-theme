@@ -54,14 +54,14 @@ ul, li {
 	list-style-type: none;
 }
 
-#header, #container, #footer {
+#container, #footer {
     width: 960px;
 }
 
 #header {
+	width: 935px;
     height: 191px;
 	margin-bottom: -75px;
-	padding-right: 25px;
 	padding-bottom: 75px;
 }
 
