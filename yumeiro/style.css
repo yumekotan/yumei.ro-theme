@@ -19,7 +19,7 @@ html, body, p {
     padding: 0;
     display: block;
 	background: #fef4e0 url('background.jpg') no-repeat left top;
-    font: 18px "Verdana", sans-serif;
+    font: 18pt "Verdana", sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -41,7 +41,8 @@ h2 {
 	margin: 0;
 	padding: 5px;
 	background: url('sidebarheader.png');
-	font: 18px "Cedarville Cursive", sans-serif;
+	font: 18pt "Verdana", sans-serif;
+	color: #ffffff;
 	text-align: center;
 }
 
@@ -70,7 +71,7 @@ h2 {
     margin-bottom: -500px;
 }
 
-    .column#sidebar-column {
+    .column#left-column {
         width: 232px;
 		margin: 25px 25px 228px 0px;
 		background: #ffbc8c;
@@ -78,7 +79,7 @@ h2 {
 		opacity: 0.6;
     }
 
-        .column#sidebar-column a {
+        .column#left-column a {
             color: #FFF;
         }
 

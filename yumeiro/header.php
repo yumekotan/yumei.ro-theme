@@ -11,5 +11,4 @@
         <div id="container">
 
             <div id="header">
-                <h1><a href="<?php echo home_url('/'); ?>">Yumei.ro</a></h1>
-             </div> <!-- END HEADER -->
+			</div> <!-- END HEADER -->
