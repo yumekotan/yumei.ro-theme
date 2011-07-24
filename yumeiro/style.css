@@ -12,22 +12,20 @@
  *
  * */
 
-@import url(http://fonts.googleapis.com/css?family=Varela+Round&v2);
-@import url(http://fonts.googleapis.com/css?family=Rosario&v2);
+@import url(http://fonts.googleapis.com/css?family=Cedarville+Cursive&v2);
 
 html, body, p {
     margin: 0;
     padding: 0;
     display: block;
-    font: 16px/24px "Rosario", "Verdana", sans-serif;
+	background: #fef4e0 url('background.jpg') no-repeat left top;
+    font: 18px "Verdana", sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
     margin: 0;
     padding: 0;
     line-height: 100%;
-    font-weight: normal;
-    font-family: "Varela Round", "Verdana", sans-serif;
 }
 
     h1 a, h2 a, h3 a, h4 a, h5 a {
@@ -36,26 +34,29 @@ h1, h2, h3, h4, h5 {
     }
 
 h1 {
-    line-height: 150px;
-    font-size: 42px;
+    font-size: 24px;
 }
 
 h2 {
-    font-size: 30px;
+	margin: 0;
+	padding: 5px;
+	background: url('sidebarheader.png');
+	font: 18px "Cedarville Cursive", sans-serif;
+	text-align: center;
+}
+
+#header, #container, #footer {
+    width: 960px;
 }
 
 #header {
-    background: #F00;
-    height: 150px;
+    height: 191px;
     overflow: hidden;
 }
 
 #container {
     margin: 0;
-}
-
-#header, #body, #footer {
-    width: 960px;
+	padding: 0;
 }
 
 #body {
@@ -69,28 +70,26 @@ h2 {
     margin-bottom: -500px;
 }
 
-    .column#left-column {
-        width: 200px;
-        background: #00F;
-        min-height: 600px;
+    .column#sidebar-column {
+        width: 232px;
+		margin: 25px 25px 228px 0px;
+		background: #ffbc8c;
+		border: 1px solid #fd8739;
+		opacity: 0.6;
     }
 
-        .column#left-column a {
+        .column#sidebar-column a {
             color: #FFF;
         }
 
     .column#content-column {
-        width: 560px;
-        background: #888;
-    }
-
-    .column#sidebar-column {
-        width: 200px;
-        background: #A0A;
-        min-height: 300px;
+        width: 653px;
+		margin: 0px 25px 0px 0px;
+		background: #ffbc8c;
+		border: 1px solid #fd8739;
+		opacity: 0.3;
     }
 
 #footer {
     clear: both;
-    background: #0AA;
 }
