@@ -1,4 +1,4 @@
-﻿<? get_header(); ?>
+<? get_header(); ?>
 
 <!-- the hairy beast -->
 

@@ -26,8 +26,7 @@ body {
 	background: #fef4e0 url('images/background.jpg') no-repeat left top;
 }
 
-a
-{
+a {
 	color: #fdb37c;
 	font-weight: bold;
 }
@@ -39,6 +38,7 @@ a:active {text-decoration: underline;}
 
 h1, h2, h3, h4, h5 {
     margin: 0;
+	padding: 0;
 }
 
 h1.post-title {

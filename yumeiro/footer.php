@@ -1,4 +1,4 @@
-﻿            <div id="footer">
+            <div id="footer">
                 <p>yumei.ro &copy; <?php echo date('Y'); ?> Yumeko</p>
                 <? wp_nav_menu(array(
                         "menu" => "footer",
