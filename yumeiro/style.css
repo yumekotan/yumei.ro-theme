@@ -69,8 +69,8 @@ strong, b {
 
 h2 {
 	height: 27px;
-	margin: 0px;
-	padding: 12px 0px 0px 0px;
+	margin: 5px 0px 0px 0px;
+	padding: 12px 5px 5px 5px;
 	background: url('images/sidebarheader.png') no-repeat center top;
 	font: bold 16px "Arvo", serif;
 	color: #ffffff;
@@ -82,6 +82,38 @@ ul, li {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+}
+
+div.textwidget {
+	padding: 0px 10px 0px 10px;
+	text-align: justify;
+}
+
+.widget_search .screen-reader-text {
+	display:none;
+}
+ 
+.widget_search #s {
+	border : 1px solid #fdb37c;
+	color: #715a4a;
+	font: 12px "PT Sans", sans-serif;
+	width: 149px;
+}
+
+.widget_search #searchsubmit {
+	background: #fdb37c;  
+	border: 1px solid #ffffff; 
+	color: #ffffff;
+	font: bold 12px "PT Sans", sans-serif;
+}
+ 
+.widget_search #searchsubmit:hover {
+	background: #fdb37c;  
+	border: 1px solid #fdb37c;
+}
+
+div.tagcloud {
+	padding: 0px 10px 5px 10px;
 }
 
 #container, #footer {
@@ -121,14 +153,14 @@ ul, li {
 }
 
     .column#left-column {
-        width: 220px;
+        width: 230px;
 		margin: 228px 25px 0px 25px;
-		padding: 5px;
+		padding: 0px;
 		background: url('images/sidebarbg.png') repeat;
 		border: 1px solid #fed3ae;
 		color: #715a4a;
 		font: 12px "PT Sans", sans-serif;
-		text-align: justify;
+		text-align: center;
 		line-height: 12px;
     }
 
@@ -143,6 +175,7 @@ ul, li {
     }
 
 #footer {
+	margin: 10px;
     clear: both;
 	color: #fdb37c;
 	font: 12px "PT Sans", sans-serif;
