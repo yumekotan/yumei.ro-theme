@@ -37,10 +37,10 @@
                     <a href="<? the_permalink(); ?>"><? the_title(); ?></a>
                 </h1>
                 <p class="post-info">
-                    Written by 
+                    By: 
                     <span class="author"><? the_author_link(); ?></span>
-                    on
-                    <span class="date"><? the_time('l, F js, Y') ?>
+                     | Published: 
+                    <span class="date"><?php the_time('F j, Y'); ?> @ <?php the_time('g:i a'); ?></span>
                 </p>
                 <? the_content("Read more &raquo;"); ?>
             <? if ($is_list) { ?></li><? } else { ?></div><? } ?>
