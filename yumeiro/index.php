@@ -8,7 +8,7 @@
 
 <div id="body">
     <div class="column" id="left-column">
-        <? dynamic_sidebar('navigation-sidebar'); ?>
+        <ul class="widgets"><? dynamic_sidebar('navigation-sidebar'); ?></ul>
     </div>
 
     <div class="column" id="content-column">
@@ -45,7 +45,6 @@
 					<span class="date"><?php the_time('g:i a'); ?></span>
                 </p>
                 <? the_content("Read more &raquo;"); ?>
-				<script type="text/javascript" src="http://yume-iro.disqus.com/combination_widget.js?num_items=5&hide_mods=0&color=blue&default_tab=people&excerpt_length=200"></script>
             <? if ($is_list) { ?></li><? } else { ?></div><? } ?>
         <? } // end have posts ?>
         <? if ($is_list) { ?></ul><? } ?>
