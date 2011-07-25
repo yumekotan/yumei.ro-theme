@@ -27,7 +27,7 @@
                 }
             ?>
             <? if ($is_list) { ?><ul class="post-list"><? } ?>
-            <? while (have_posts()) { the_post(); } ?>
+            <? while (have_posts()) { the_post(); ?>
             <? if ($is_list) { ?>
             <li class="post">
             <? } else { ?>
@@ -45,8 +45,16 @@
 					<span class="date"><?php the_time('g:i a'); ?></span>
                 </p>
                 <? the_content("Read more &raquo;"); ?>
+                <? if ($is_list) { // just a comment link ?>
+                    <div class="comments-link">
+                        <?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'yumeiro' ) . '</span>', _x( '1', 'comments number', 'yumeiro' ), _x( '%', 'comments number', 'yumeiro' ) ); ?>
+                    </div>
+                <? } else { // enabling comments ?>
+                    <? comments_template( '', true ); ?>
+                <? } ?>
             <? if ($is_list) { ?></li><? } else { ?></div><? } ?>
         <? } // end have posts ?>
+        <? } // end while has posts ?>
         <? if ($is_list) { ?></ul><? } ?>
     </div>
 
