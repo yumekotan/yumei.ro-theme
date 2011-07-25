@@ -1,5 +1,5 @@
-            <div id="footer">
-                <p>yumei.ro &copy; <?php echo date('Y'); ?> Amy Marshall</p>
+﻿            <div id="footer">
+                <p>yumei.ro &copy; <?php echo date('Y'); ?> Yumeko</p>
                 <? wp_nav_menu(array(
                         "menu" => "footer",
                         "menu_class" => "footer-links"

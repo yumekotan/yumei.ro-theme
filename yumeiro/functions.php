@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 register_nav_menus(array(
     "main-navigation" => "Main Navigation",

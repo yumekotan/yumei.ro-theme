@@ -84,8 +84,6 @@ ul, li {
 #header {
 	width: 935px;
     height: 191px;
-	margin-bottom: -75px;
-	padding-bottom: 75px;
 }
 
 .title{
@@ -113,8 +111,6 @@ ul, li {
 .column {
     float: left;
     min-height: 300px;
-    padding-bottom: 500px;
-    margin-bottom: -500px;
 }
 
     .column#left-column {
