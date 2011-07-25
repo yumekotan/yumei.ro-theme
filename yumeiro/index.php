@@ -40,7 +40,9 @@
                     By: 
                     <span class="author"><? the_author_link(); ?></span>
                      | Published: 
-                    <span class="date"><?php the_time('F j, Y'); ?> @ <?php the_time('g:i a'); ?></span>
+                    <span class="date"><?php the_time('F j, Y'); ?></span>
+					 @ 
+					<span class="date"><?php the_time('g:i a'); ?></span>
                 </p>
                 <? the_content("Read more &raquo;"); ?>
             <? if ($is_list) { ?></li><? } else { ?></div><? } ?>
