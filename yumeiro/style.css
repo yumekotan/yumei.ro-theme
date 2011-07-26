@@ -138,20 +138,26 @@ div.tagcloud {
 	z-index: 30;
 }
 
-.st_plusone_hcount {
-	position: relative;
-	left: 15px;
+.permalink {
+	display: block;
+	float: left;
 }
 
 .comments-link {
 	position: relative;
 	left: 30px;
+	display: block;
+	float: left;
+}
+
+.sharethis-chicklets {
+	display: block;
+	float: right;
 }
 
 .post-end {
 	font: 12px "PT Sans", sans-serif;
 	line-height: 12px;
-	vertical-align: top;
 }
 
 #container {

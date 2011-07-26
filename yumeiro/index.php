@@ -45,9 +45,6 @@
 					<span class="date"><?php the_time('g:i a'); ?></span>
                 </p>
                 <? the_content("Read more &raquo;"); ?>
-				<div class="sharethis-chicklets">
-					<span class='st_facebook' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_twitter' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_gbuzz' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_email' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class="st_plusone_hcount" st_url="<? the_permalink(); ?>"></span><span class="st_fblike_hcount" st_url="<? the_permalink(); ?>"></span>
-				</div>
 				<div class="post-end">
 					<span class="permalink"><img class="permalink-image" src="/wp-content/themes/yumeiro/images/permalink.png" /> <a href="<? the_permalink(); ?>">Permalink</a></span>
 					<? if ($is_list) { // just a comment link ?>
@@ -57,6 +54,7 @@
 					<? } else { // enabling comments ?>
 						<? comments_template( '', true ); ?>
 					<? } ?>
+					<span class="sharethis-chicklets"><span class='st_facebook' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_twitter' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_gbuzz' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_email' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class="st_plusone_hcount" st_url="<? the_permalink(); ?>"></span><span class="st_fblike_hcount" st_url="<? the_permalink(); ?>"></span></span>
 				</div>
 				
             <? if ($is_list) { ?></li><? } else { ?></div><? } ?>
