@@ -12,7 +12,7 @@
     </div>
 
     <div class="column" id="content-column">
-	<img class="faerie" src="/wp-content/themes/yumeiro/images/faerie.png" />
+	<img id="faerie" src="/wp-content/themes/yumeiro/images/faerie.png" />
         <? if ( !have_posts() ) { ?>
             <div class="post">
                 <h1 class="post-title">Sorry...</h1>
@@ -54,7 +54,7 @@
 					<? } ?>
 					<span class="sharethis-chicklets"><span class='st_facebook' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_twitter' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_gbuzz' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_email' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class="st_plusone_hcount" st_url="<? the_permalink(); ?>"></span><span class="st_fblike_hcount" st_url="<? the_permalink(); ?>"></span></span>
 					<? if (!$is_list) { // enabling comments ?>
-						<div class='comments'><? comments_template( '', true ); ?></div>
+						<div id='comments'><? comments_template( '', true ); ?></div>
 					<? } ?>
 				</div>
 				
