@@ -45,6 +45,18 @@
 					<span class="date"><?php the_time('g:i a'); ?></span>
                 </p>
                 <? the_content("Read more &raquo;"); ?>
+				<span class='st_facebook' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span> 
+				<span class='st_twitter' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span> 
+				<span class='st_gbuzz' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span> 
+				<span class='st_email' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span> 
+				
+				<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+				<script type="text/javascript">
+					stLight.options({
+						publisher:'12345'
+					});
+				</script>
+				
                 <? if ($is_list) { // just a comment link ?>
                     <div class="comments-link">
                         <?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'yumeiro' ) . '</span>', _x( '1', 'comments number', 'yumeiro' ), _x( '%', 'comments number', 'yumeiro' ) ); ?>

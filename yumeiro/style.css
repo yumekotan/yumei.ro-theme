@@ -42,8 +42,8 @@ h1, h2, h3, h4, h5 {
 }
 
 h1.post-title {
-    font: bold 20px "PT Sans", sans-serif;
-	line-height: 20px;
+    font: bold 22px "PT Sans", sans-serif;
+	line-height: 22px;
 	color: #fdb37c;
 	text-shadow: 1px 1px #ffffff;
 	text-decoration: none;
@@ -125,17 +125,22 @@ div.tagcloud {
     height: 191px;
 }
 
-.title{
+.title {
 	position: relative;
 	top: 154px;
 	float: right;
 	z-index: 10;
 }
 
-.faerie{
+.faerie {
 	position: relative;
 	float: right;
 	z-index: 10;
+}
+
+div.comments-link {
+	font: 12px "PT Sans", sans-serif;
+	line-height: 12px;
 }
 
 #container {
