@@ -138,13 +138,13 @@ div.tagcloud {
 	z-index: 10;
 }
 
+div.sharethis-chicklets {
+	vertical-align: top;
+}
+
 div.post-end {
 	font: 12px "PT Sans", sans-serif;
 	line-height: 12px;
-}
-
-span.comments-link {
-	align: right;
 }
 
 #container {
