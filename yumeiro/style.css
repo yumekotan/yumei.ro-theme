@@ -160,6 +160,11 @@ div.tagcloud {
 	line-height: 12px;
 }
 
+#comments {
+	clear: both
+	margin-top: 20px;
+}
+
 #container {
     margin: 0;
 	padding: 0;
