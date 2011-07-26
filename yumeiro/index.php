@@ -50,25 +50,17 @@
 					<span class='st_twitter' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span>
 					<span class='st_gbuzz' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span>
 					<span class='st_email' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span>
-					<span class="st_fblike_hcount" ></span>
-					<span class="st_plusone_hcount" st_url="http://www.sharethis.com/"></span>
-					<span class="permalink"><a href="<? the_permalink(); ?>">Permalink</a></span>
+					<span class="st_fblike_hcount" st_url="<? the_permalink(); ?>"></span>
+					<span class="st_plusone_hcount" st_url="<? the_permalink(); ?>"></span>
+					<? if ($is_list) { // just a comment link ?>
+                    <span class="comments-link">
+                        <?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'yumeiro' ) . '</span>', _x( '1', 'comments number', 'yumeiro' ), _x( '%', 'comments number', 'yumeiro' ) ); ?>
+                    </span>
+					<? } else { // enabling comments ?>
+						<? comments_template( '', true ); ?>
+					<? } ?>
 				</div>
 				
-				<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-				<script type="text/javascript">
-					stLight.options({
-						publisher:'12345'
-					});
-				</script>
-				
-                <? if ($is_list) { // just a comment link ?>
-                    <div class="comments-link">
-                        <?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'yumeiro' ) . '</span>', _x( '1', 'comments number', 'yumeiro' ), _x( '%', 'comments number', 'yumeiro' ) ); ?>
-                    </div>
-                <? } else { // enabling comments ?>
-                    <? comments_template( '', true ); ?>
-                <? } ?>
             <? if ($is_list) { ?></li><? } else { ?></div><? } ?>
         <? } // end have posts ?>
         <? } // end while has posts ?>

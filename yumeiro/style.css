@@ -143,9 +143,8 @@ div.post-end {
 	line-height: 12px;
 }
 
-div.comments-link {
-	font: 12px "PT Sans", sans-serif;
-	line-height: 12px;
+span.comments-link {
+	align: right;
 }
 
 #container {

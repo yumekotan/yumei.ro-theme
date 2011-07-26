@@ -7,5 +7,13 @@
             </div> <!-- END FOOTER -->
         </div> <!-- END CONTAINER -->
         <?php wp_footer(); ?>
-    </body>
+    
+		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+		<script type="text/javascript">
+			stLight.options({
+				publisher:'12345'
+			});
+		</script>
+	
+	</body>
 </html>
