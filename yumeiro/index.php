@@ -53,13 +53,14 @@
 							<img id="comments-image" src="/wp-content/themes/yumeiro/images/comments.png" /> <?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'yumeiro' ) . '</span>', _x( '1', 'comments number', 'yumeiro' ), _x( '%', 'comments number', 'yumeiro' ) ); ?>
 						</span>
 						<? } ?>
-						<div class="addthis_toolbox addthis_default_style">
-							<a class="addthis_button_preferred_1"></a>
-							<a class="addthis_button_preferred_2"></a>
-							<a class="addthis_button_preferred_3"></a>
-							<a class="addthis_button_preferred_4"></a>
+						<span class="addthis_toolbox addthis_default_style">
+							<a class="addthis_button_facebook"></a>
+							<a class="addthis_button_twitter"></a>
+							<a class="addthis_button_googlebuzz"></a>
+							<a class="addthis_button_email"></a>
+							<a class="addthis_button_print"></a>
 							<a class="addthis_button_compact"></a>
-						</div>
+						</span>
 					</span>
 				</div>
 				<? if (!$is_list) { // enabling comments ?>
