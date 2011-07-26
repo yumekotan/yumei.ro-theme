@@ -138,14 +138,9 @@ div.tagcloud {
 	z-index: 30;
 }
 
-.permalink {
-	display: block;
-	float: left;
-}
-
-.comments-link {
-	position: relative;
-	left: 40px;
+.post-end {
+	font: 12px "PT Sans", sans-serif;
+	line-height: 12px;
 	display: block;
 	float: left;
 }
@@ -153,11 +148,6 @@ div.tagcloud {
 .sharethis-chicklets {
 	display: block;
 	float: right;
-}
-
-.post-end {
-	font: 12px "PT Sans", sans-serif;
-	line-height: 12px;
 }
 
 #comments {
