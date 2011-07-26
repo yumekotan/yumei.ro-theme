@@ -37,19 +37,11 @@
                     <a href="<? the_permalink(); ?>"><? the_title(); ?></a>
                 </h1>
                 <p class="post-info">
-                    By: 
-                    <span class="author"><? the_author_link(); ?></span>
-                     | Published: 
+                    Published: 
                     <span class="date"><?php the_time('F j, Y'); ?></span>
 					 @ 
 					<span class="date"><?php the_time('g:i a'); ?></span>
-                </p>
-                <? the_content("Read more &raquo;"); ?>
-				<div class="sharethis-chicklets">
-					<span class='st_facebook' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_twitter' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_gbuzz' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_email' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class="st_plusone_hcount" st_url="<? the_permalink(); ?>"></span><span class="st_fblike_hcount" st_url="<? the_permalink(); ?>"></span>
-				</div>
-				<div class="post-end">
-					<span class="permalink"><a href="<? the_permalink(); ?>">Permalink</a></span>
+					 | 
 					<? if ($is_list) { // just a comment link ?>
                     <span class="comments-link">
                         <?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'yumeiro' ) . '</span>', _x( '1', 'comments number', 'yumeiro' ), _x( '%', 'comments number', 'yumeiro' ) ); ?>
@@ -57,6 +49,14 @@
 					<? } else { // enabling comments ?>
 						<? comments_template( '', true ); ?>
 					<? } ?>
+                </p>
+                <? the_content("Read more &raquo;"); ?>
+				<div class="sharethis-chicklets">
+					<span class='st_facebook' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_twitter' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_gbuzz' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_email' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class="st_plusone_hcount" st_url="<? the_permalink(); ?>"></span><span class="st_fblike_hcount" st_url="<? the_permalink(); ?>"></span>
+				</div>
+				<div class="post-end">
+					<span class="permalink"><a href="<? the_permalink(); ?>">Permalink</a></span>
+					
 				</div>
 				
             <? if ($is_list) { ?></li><? } else { ?></div><? } ?>

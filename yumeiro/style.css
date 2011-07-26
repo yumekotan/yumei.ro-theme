@@ -138,17 +138,9 @@ div.tagcloud {
 	z-index: 30;
 }
 
-.st_fblike_hcount {
-}
-
 .st_plusone_hcount {
 	position: relative;
-	left: 10px;
-}
-
-.post-end {
-	font: 12px "PT Sans", sans-serif;
-	line-height: 20px;
+	left: 15px;
 }
 
 #container {
