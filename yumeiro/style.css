@@ -139,9 +139,10 @@ div.tagcloud {
 }
 
 .post-end {
-	height: 16px;
+	height: 20px;
 	width: 100%;
 	font: 12px "PT Sans", sans-serif;
+	vertical-align: middle;
 }
 
 .post-end-links {
@@ -150,7 +151,7 @@ div.tagcloud {
 }
 
 .sharethis-chicklets {
-	height: 16px;
+	height: 20px;
 	display: block;
 	float: right;
 }
