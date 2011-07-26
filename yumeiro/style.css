@@ -84,7 +84,7 @@ ul, li {
 	list-style-type: none;
 }
 
-div.textwidget {
+.textwidget {
 	padding: 0px 10px 0px 10px;
 	text-align: justify;
 }
@@ -135,16 +135,21 @@ div.tagcloud {
 .faerie {
 	position: relative;
 	float: right;
-	z-index: 10;
+	z-index: 30;
 }
 
-div.sharethis-chicklets {
-	vertical-align: top;
+.st_fblike_hcount {
 }
 
-div.post-end {
+.st_plusone_hcount {
+	padding-top: 2px;
+	position: relative;
+	left: 30px;
+}
+
+.post-end {
 	font: 12px "PT Sans", sans-serif;
-	line-height: 12px;
+	line-height: 20px;
 }
 
 #container {

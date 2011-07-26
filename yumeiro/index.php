@@ -46,12 +46,7 @@
                 </p>
                 <? the_content("Read more &raquo;"); ?>
 				<div class="sharethis-chicklets">
-					<span class='st_facebook' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span>
-					<span class='st_twitter' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span>
-					<span class='st_gbuzz' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span>
-					<span class='st_email' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span>
-					<span class="st_fblike_hcount" st_url="<? the_permalink(); ?>"></span>
-					<span class="st_plusone_hcount" st_url="<? the_permalink(); ?>"></span>
+					<span class='st_facebook' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_twitter' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_gbuzz' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class='st_email' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span><span class="st_plusone_hcount" st_url="<? the_permalink(); ?>"></span><span class="st_fblike_hcount" st_url="<? the_permalink(); ?>"></span>
 				</div>
 				<div class="post-end">
 					<span class="permalink"><a href="<? the_permalink(); ?>">Permalink</a></span>
