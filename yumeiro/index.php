@@ -55,11 +55,11 @@
 							<a class="addthis_button_print"></a>
 							<a class="addthis_button_compact"></a>
 						</span>
-						<span class="addthis_facebook_button">
-							<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						<span class="facebook_button">
+							<iframe src="http://www.facebook.com/plugins/like.php?href=%3C%3F+the_permalink%28%29%3B+%3F%3E&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
 						</span>
-						<span class="addthis_google_plusone_button">
-							<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+						<span class="google_plusone_button">
+							<g:plusone size="small"></g:plusone>
 						</span>
 					</span>
 					<span class="post-end-links">
