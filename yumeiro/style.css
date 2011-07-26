@@ -139,21 +139,21 @@ div.tagcloud {
 }
 
 .post-end {
-	height: 20px;
 	width: 100%;
 	font: 12px "PT Sans", sans-serif;
 	vertical-align: middle;
 }
 
 .post-end-links {
-	display: block;
-	float: left;
+	height: 20px;
+	display: inline-block;
+	text-align: left;
 }
 
 .sharethis-chicklets {
 	height: 20px;
-	display: block;
-	float: right;
+	display: inline-block;
+	text-align: right;
 }
 
 #comments {
