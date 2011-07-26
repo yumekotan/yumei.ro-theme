@@ -140,7 +140,10 @@ div.tagcloud {
 
 .post-end {
 	font: 12px "PT Sans", sans-serif;
-	line-height: 12px;
+	line-height: 16px;
+}
+
+.post-end-links {
 	display: block;
 	float: left;
 }
@@ -152,7 +155,6 @@ div.tagcloud {
 
 #comments {
 	clear: both;
-	margin-top: 30px;
 }
 
 #container {
