@@ -139,6 +139,7 @@ div.tagcloud {
 }
 
 .post-end {
+	width: 100%;
 	font: 12px "PT Sans", sans-serif;
 	line-height: 16px;
 }
