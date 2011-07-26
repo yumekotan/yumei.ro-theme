@@ -143,6 +143,10 @@ div.tagcloud {
 	width: 100%;
 }
 
+.addthis_facebook_button, .addthis_button_facebook_like {
+	height: 20px;
+}
+
 .comments-link{
 	position: relative;
 	left: 30px;
