@@ -37,18 +37,12 @@
                     <a href="<? the_permalink(); ?>"><? the_title(); ?></a>
                 </h1>
                 <p class="post-info">
-                    Published: 
+                    By: 
+                    <span class="author"><? the_author_link(); ?></span>
+                     | Published: 
                     <span class="date"><?php the_time('F j, Y'); ?></span>
 					 @ 
 					<span class="date"><?php the_time('g:i a'); ?></span>
-					 | 
-					<? if ($is_list) { // just a comment link ?>
-                    <span class="comments-link">
-                        <?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'yumeiro' ) . '</span>', _x( '1', 'comments number', 'yumeiro' ), _x( '%', 'comments number', 'yumeiro' ) ); ?>
-                    </span>
-					<? } else { // enabling comments ?>
-						<? comments_template( '', true ); ?>
-					<? } ?>
                 </p>
                 <? the_content("Read more &raquo;"); ?>
 				<div class="sharethis-chicklets">
@@ -56,7 +50,13 @@
 				</div>
 				<div class="post-end">
 					<span class="permalink"><a href="<? the_permalink(); ?>">Permalink</a></span>
-					
+					<? if ($is_list) { // just a comment link ?>
+                    <span class="comments-link">
+                        <?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'yumeiro' ) . '</span>', _x( '1', 'comments number', 'yumeiro' ), _x( '%', 'comments number', 'yumeiro' ) ); ?>
+                    </span>
+					<? } else { // enabling comments ?>
+						<? comments_template( '', true ); ?>
+					<? } ?>
 				</div>
 				
             <? if ($is_list) { ?></li><? } else { ?></div><? } ?>

@@ -143,6 +143,11 @@ div.tagcloud {
 	left: 15px;
 }
 
+.post-end {
+	font: 12px "PT Sans", sans-serif;
+	line-height: 20px;
+}
+
 #container {
     margin: 0;
 	padding: 0;
