@@ -4,6 +4,7 @@
     <head>
         <title>yumei.ro 「夢色」 what color is your dream?</title>
         <link href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" rel="stylesheet"/>
+		<link href="disqus.css" type="text/css" rel="stylesheet" />
         <?php wp_head(); ?>
     </head>
 
