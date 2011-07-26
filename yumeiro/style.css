@@ -139,12 +139,11 @@ div.tagcloud {
 }
 
 .st_fblike_hcount {
-	position: relative;
-	left: 5px;
 }
 
 .st_plusone_hcount {
-	padding-top: 5px;
+	position: relative;
+	left: 10px;
 }
 
 .post-end {
