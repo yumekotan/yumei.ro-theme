@@ -54,7 +54,7 @@
 						<a class="addthis_button_print"></a>
 						<a class="addthis_button_compact"></a>
 						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-						<a class="addthis_button_google_plusone" g:plusone:size="small"></a>
+						<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
 					</span>
 					<span class="post-end-links">
 						<span class="permalink"><img id="permalink-image" src="/wp-content/themes/yumeiro/images/permalink.png" /> <a href="<? the_permalink(); ?>">Permalink</a></span>
