@@ -46,6 +46,16 @@
                 </p>
                 <? the_content("Read more &raquo;"); ?>
 				<div class="post-end">
+					<span class="addthis_toolbox addthis_default_style">
+						<a class="addthis_button_facebook"></a>
+						<a class="addthis_button_twitter"></a>
+						<a class="addthis_button_googlebuzz"></a>
+						<a class="addthis_button_email"></a>
+						<a class="addthis_button_print"></a>
+						<a class="addthis_button_compact"></a>
+						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						<a class="addthis_google_plusone"></a>
+					</span>
 					<span class="post-end-links">
 						<span class="permalink"><img id="permalink-image" src="/wp-content/themes/yumeiro/images/permalink.png" /> <a href="<? the_permalink(); ?>">Permalink</a></span>
 						<? if ($is_list) { // just a comment link ?>
@@ -53,14 +63,6 @@
 							<img id="comments-image" src="/wp-content/themes/yumeiro/images/comments.png" /> <?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'yumeiro' ) . '</span>', _x( '1', 'comments number', 'yumeiro' ), _x( '%', 'comments number', 'yumeiro' ) ); ?>
 						</span>
 						<? } ?>
-						<span class="addthis_toolbox addthis_default_style">
-							<a class="addthis_button_facebook"></a>
-							<a class="addthis_button_twitter"></a>
-							<a class="addthis_button_googlebuzz"></a>
-							<a class="addthis_button_email"></a>
-							<a class="addthis_button_print"></a>
-							<a class="addthis_button_compact"></a>
-						</span>
 					</span>
 				</div>
 				<? if (!$is_list) { // enabling comments ?>

@@ -143,6 +143,10 @@ div.tagcloud {
 	width: 100%;
 }
 
+.post-end-links {
+	float: right;
+}
+
 .comments-link{
 	position: relative;
 	left: 30px;
