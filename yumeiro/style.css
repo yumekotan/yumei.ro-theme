@@ -140,21 +140,12 @@ div.tagcloud {
 
 .post-end {
 	font: 12px "PT Sans", sans-serif;
-}
-
-.sharethis-chicklets {
-	position: relative;
-	left: 250px;
+	width: 100%;
 }
 
 .comments-link{
 	position: relative;
 	left: 30px;
-}
-
-.st_plusone_hcount, .st_fblike_hcount {
-	position: relative;
-	left: 15px;
 }
 
 #comments {
