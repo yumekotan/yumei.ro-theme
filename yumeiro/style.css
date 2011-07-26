@@ -145,7 +145,8 @@ div.tagcloud {
 
 .post-end {
 	font: 12px "PT Sans", sans-serif;
-	line-height: 20px;
+	line-height: 12px;
+	vertical-align: top;
 }
 
 #container {
