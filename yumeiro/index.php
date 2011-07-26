@@ -45,10 +45,15 @@
 					<span class="date"><?php the_time('g:i a'); ?></span>
                 </p>
                 <? the_content("Read more &raquo;"); ?>
-				<span class='st_facebook' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span> 
-				<span class='st_twitter' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span> 
-				<span class='st_gbuzz' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span> 
-				<span class='st_email' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span> 
+				<div class="post-end">
+					<span class='st_facebook' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span>
+					<span class='st_twitter' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span>
+					<span class='st_gbuzz' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span>
+					<span class='st_email' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' ></span>
+					<span class="st_fblike_hcount" ></span>
+					<span class="st_plusone_hcount" st_url="http://www.sharethis.com/"></span>
+					<span class="permalink"><a href="<? the_permalink(); ?>">Permalink</a></span>
+				</div>
 				
 				<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 				<script type="text/javascript">

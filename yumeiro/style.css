@@ -138,6 +138,11 @@ div.tagcloud {
 	z-index: 10;
 }
 
+div.post-end {
+	font: 12px "PT Sans", sans-serif;
+	line-height: 12px;
+}
+
 div.comments-link {
 	font: 12px "PT Sans", sans-serif;
 	line-height: 12px;
