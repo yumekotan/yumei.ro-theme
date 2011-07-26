@@ -143,6 +143,11 @@ div.tagcloud {
 	left: 15px;
 }
 
+.comments-link {
+	position: relative;
+	left: 30px;
+}
+
 .post-end {
 	font: 12px "PT Sans", sans-serif;
 	line-height: 12px;
