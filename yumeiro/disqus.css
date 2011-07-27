@@ -1,0 +1,22 @@
+#dsq-content #dsq-form-area .dsq-textarea .dsq-textarea-wrapper,
+#dsq-content #dsq-form-area .dsq-post-fields .dsq-input-wrapper {
+	border: 1px solid #fdb37c;
+	color: #715a4a;
+	font: bold 12px "PT Sans", sans-serif;
+}
+
+#disqus_thread {
+	margin-top: 5px;
+}
+
+#dsq-post-button {
+	background: #fdb37c;  
+	border: 1px solid #ffffff; 
+	color: #ffffff;
+	font: bold 12px "PT Sans", sans-serif;
+}
+
+#dsq-post-button:hover {
+	background: #fdb37c;  
+	border: 1px solid #fdb37c;
+}
