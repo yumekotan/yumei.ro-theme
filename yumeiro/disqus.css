@@ -3,6 +3,10 @@
 	border: 1px solid #fdb37c;
 	color: #715a4a;
 	font: 12px "PT Sans", sans-serif !important;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-webkit-box-shadow: 0px 0px 0px;
+	-moz-box-shadow: 0px 0px 0px;
 }
 
 #dsq-post-button {
@@ -25,4 +29,8 @@
 .dsq-button-small {
 	background: #fdb37c;
 	border: 1px solid #ffffff;
+}
+
+#dsq-sort-select {
+	font: 12px "PT Sans", sans-serif;
 }
