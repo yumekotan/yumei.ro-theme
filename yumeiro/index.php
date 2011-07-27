@@ -62,12 +62,12 @@
 							<a class="addthis_button_email"></a>
 							<a class="addthis_button_print"></a>
 							<a class="addthis_button_compact"></a>
+						<span class="addthis_google_plusone_button">
+							<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+						</span>
 						</span>
 						<span class="addthis_facebook_button">
 							<a class="addthis_button_facebook_like" fb:like:layout="button_count" fb:like:height="20"></a>
-						</span>
-						<span class="addthis_google_plusone_button">
-							<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
 						</span>
 					</span>
 				</div>

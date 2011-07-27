@@ -117,7 +117,7 @@ div.tagcloud {
 }
 
 #container, #footer {
-    width: 960px;
+    width: 940px;
 }
 
 #header {
@@ -146,6 +146,8 @@ div.tagcloud {
 .addthis_toolbox, .addthis_default_style {
 	display: inline-block;
 	float: right !important;
+	line-height: 20px !important;
+	height: 20px !important;
 }
 
 .post-end-links {
@@ -154,9 +156,7 @@ div.tagcloud {
 }
 
 .addthis_share_buttons {
-	line-height: 20px !important;
-	height: 20px !important;
-	vertical-align: middle !important;
+	
 }
 
 .comments-link{
