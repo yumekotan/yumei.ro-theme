@@ -145,12 +145,14 @@ div.tagcloud {
 
 .addthis_toolbox, .addthis_default_style {
 	display: inline-block;
-	float: left;
+	position: absolute;
+	left: 290px;
 }
 
 .post-end-links {
 	display: inline-block;
-	float: right;
+	position: absolute;
+	left: 400px;
 }
 
 .comments-link{
