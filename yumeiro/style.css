@@ -153,6 +153,12 @@ div.tagcloud {
 	float: left !important;
 }
 
+.addthis_share_buttons {
+	line-height: 20px !important;
+	height: 20px !important;
+	vertical-align: middle !important;
+}
+
 .comments-link{
 	position: relative;
 	left: 30px;
