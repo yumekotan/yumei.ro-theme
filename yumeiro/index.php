@@ -46,6 +46,14 @@
                 </p>
                 <? the_content("Read more &raquo;"); ?>
 				<div class="post-end">
+					<span class="post-end-links">
+						<span class="permalink"><img id="permalink-image" src="/wp-content/themes/yumeiro/images/permalink.png" /> <a href="<? the_permalink(); ?>">Permalink</a></span>
+						<? if ($is_list) { // just a comment link ?>
+						<span class="comments-link">
+							<img id="comments-image" src="/wp-content/themes/yumeiro/images/comments.png" /> <?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'yumeiro' ) . '</span>', _x( '1', 'comments number', 'yumeiro' ), _x( '%', 'comments number', 'yumeiro' ) ); ?>
+						</span>
+						<? } ?>
+					</span>
 					<span class="addthis_toolbox addthis_default_style">
 						<span class="addthis_share_buttons">
 							<a class="addthis_button_facebook"></a>
@@ -59,16 +67,8 @@
 							<a class="addthis_button_facebook_like" fb:like:layout="button_count" fb:like:height="20"></a>
 						</span>
 						<span class="addthis_google_plusone_button">
-							<g:plusone size="small"></g:plusone>
+							<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
 						</span>
-					</span>
-					<span class="post-end-links">
-						<span class="permalink"><img id="permalink-image" src="/wp-content/themes/yumeiro/images/permalink.png" /> <a href="<? the_permalink(); ?>">Permalink</a></span>
-						<? if ($is_list) { // just a comment link ?>
-						<span class="comments-link">
-							<img id="comments-image" src="/wp-content/themes/yumeiro/images/comments.png" /> <?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'yumeiro' ) . '</span>', _x( '1', 'comments number', 'yumeiro' ), _x( '%', 'comments number', 'yumeiro' ) ); ?>
-						</span>
-						<? } ?>
 					</span>
 				</div>
 				<? if (!$is_list) { // enabling comments ?>
