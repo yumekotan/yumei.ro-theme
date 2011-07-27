@@ -146,8 +146,6 @@ div.tagcloud {
 .addthis_toolbox, .addthis_default_style {
 	display: inline-block;
 	float: right !important;
-	line-height: 20px !important;
-	height: 20px !important;
 }
 
 .post-end-links {
