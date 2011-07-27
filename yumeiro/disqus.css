@@ -1,97 +1,72 @@
-@charset "UTF-8";
-/* CSS Document */
+#dsq-comments-title h3 {
+color:#333;
+}
 
-/* NB full information and explanantion at http://disqus.com/docs/css/ */
-/* Added by ack! from http://wiki.disqus.net/CustomCSS */
-
-
-/* Everything Disqus on your page is contained within this. */
 #disqus_thread {
-	color: #715a4a; 
-	font-family: "PT Sans", sans-serif;
+padding:12px;
+margin-bottom:-10px;
 }
 
-/*The header at the top of posts.*/
-.dsq-comment-header {
-	background-color: #fdb37c;
-	font-size: 14px;
-	height: 50px;
-	}
-
-/*The comments.*/
-.dsq-comment-message {
-	font-size: 14px;
-	line-height: 14px;
-	}
-    
-/*The box where a post is typed into.*/
-textarea {
-	border : 1px solid #fdb37c;
-	font: 14px "PT Sans", sans-serif;
-	line-height: 14px;
-	}
-
-texarea:after {
-	}
-
-/*"Add New Comment" and "# Comments" are enclosed in h3 tags.*/
-h3 {
-	font-size: 16px;
-	line-height: 16px;
+#disqus_thread h3 {
+color:#333;
+font-weight:bold;
+font-family: Helvetica, sans-serif;
+font-size:22px;
+padding-bottom:.5em;
 }
 
-/*The entire comment thread list.*/
-#dsq-comments {}
-
-/*A single comment in the thread.*/
-.dsq-comment {
-	font-size: 14px;
-	line-height: 14px;
-	}
-
-/*The avatar image for the registered.*/
-.dsq-header-avatar img {}
-
-/*The message body of a single comment post.*/
-#dsq-content #dsq-comments .dsq-comment-body {} 
-
-/*The footer contains the link to "reply."*/
-.dsq-comment-footer {}
-
-/* The form elements (Name, Email, Website). */
-input.form-text {}
-
-/* The submit button "Post". */
-input.submit {
-	background-color: #ffffff;
+#dsq-content div.dsq-options {
+background:none;
+padding-bottom:0px;
 }
 
-/* The main wrapper for the comment system. */
-#dsq-content {
+#dsq-comments li.dsq-comment {
+margin-top:12px
+margin-bottom:12px;
+padding:12px;
+background:#F0F0E9;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border:1px solid #ccc;
 }
 
-/* The toggle button for the thread options. */
-#dsq-options-toggle {
-	/* display: none; */
+#dsq-content div.dsq-post-area {
+padding:12px;
+background:#F0F0E9;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border:1px solid #ccc;
+-webkit-box-shadow: 0px 0px 10px #ECF40B;
+-moz-box-shadow: 0px 0px 10px #ECF40B;
 }
 
-/* The links within the thread Options */
-#dsq-extra-links {
-	/* display: none; */
+#dsq-content .dsq-comment-header {
+background:none;
 }
 
-/* The comment rating arrows for posts. */
-.dsq-comment-rate {
+.dsq-brlink {
+display:none;
 }
 
-/* This is the meta information about the post (time stamp and points). */
-.dsq-header-meta {
+#dsq-content .dsq-comment-message {
+background:#fff;
+padding:10px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
 }
 
-/* The message body of a single comment post.
-.dsq-comment-body {
+#dsq-content #dsq-authenticate .dsq-login-buttons {
+background:none;
+background-image:none;
+margin-bottom:0;
 }
 
-/* This contains and determines the style for the pagination links. */
-#dsq-pagination {
+#dsq-content #dsq-form-area .dsq-textarea .dsq-textarea-wrapper,
+#dsq-content #dsq-form-area .dsq-post-fields .dsq-input-wrapper {
+border: 1px solid #ccc;
+}
+
+#dsq-new-post div.dsq-request-user-info {
+background:none;
+padding-bottom:0px;
 }
