@@ -2,11 +2,7 @@
 #dsq-content #dsq-form-area .dsq-post-fields .dsq-input-wrapper {
 	border: 1px solid #fdb37c;
 	color: #715a4a;
-	font: bold 12px "PT Sans", sans-serif;
-}
-
-#disqus_thread {
-	margin-top: 5px;
+	font: 12px "PT Sans", sans-serif !important;
 }
 
 #dsq-post-button {
@@ -19,4 +15,14 @@
 #dsq-post-button:hover {
 	background: #fdb37c;  
 	border: 1px solid #fdb37c;
+}
+
+#dsq-content .dsq-comment-header {
+	background: #fdb37c;
+	border: 1px solid #ffffff;
+}
+
+.dsq-button-small {
+	background: #fdb37c;
+	border: 1px solid #ffffff;
 }
