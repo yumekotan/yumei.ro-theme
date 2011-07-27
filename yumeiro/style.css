@@ -144,13 +144,13 @@ div.tagcloud {
 }
 
 .addthis_toolbox, .addthis_default_style {
-	position: relative;
-	left: 300px;
+	display: inline-block;
+	float: right !important;
 }
 
 .post-end-links {
-	position: relative;
-	left: 0px;
+	display: inline-block;
+	float: left !important;
 }
 
 .comments-link{
