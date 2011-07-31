@@ -1,30 +1,30 @@
 #dsq-content #dsq-form-area .dsq-textarea .dsq-textarea-wrapper,
 #dsq-content #dsq-form-area .dsq-post-fields .dsq-input-wrapper {
-	border: 1px solid #fdb37c;
-	color: #715a4a;
+	border: 1px solid #fdb37c !important;
+	color: #715a4a !important;
 	font: 12px "PT Sans", sans-serif !important;
-	-moz-border-radius: 0px;
-	-webkit-border-radius: 0px;
-	-webkit-box-shadow: 0px 0px 0px;
-	-moz-box-shadow: 0px 0px 0px;
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	-webkit-box-shadow: 0px 0px 0px !important;
+	-moz-box-shadow: 0px 0px 0px !important;
 }
 
 #dsq-post-button {
-	background: #fdb37c;  
-	border: 1px solid #ffffff; 
-	color: #ffffff;
-	font: bold 12px "PT Sans", sans-serif;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
+	background: #fdb37c !important;  
+	border: 1px solid #ffffff !important; 
+	color: #ffffff !important;
+	font: bold 12px "PT Sans", sans-serif !important;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
 }
 
 #dsq-post-button:hover {
-	background: #fdb37c;  
-	border: 1px solid #fdb37c;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
+	background: #fdb37c !important;  
+	border: 1px solid #fdb37c !important;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
 }
 
 #dsq-content .dsq-comment-header {
@@ -39,9 +39,9 @@
 	border: 1px solid #ffffff !important;
 	color: #ffffff !important;
 	font: bold 12px "PT Sans", sans-serif !important;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
 }
 
 .dsq-button-small:hover {
@@ -49,13 +49,13 @@
 	border: 1px solid #ffffff !important;
 	color: #ffffff !important;
 	font: bold 12px "PT Sans", sans-serif !important;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
 }
 
 #dsq-sort-select {
-	font: 12px "PT Sans", sans-serif;
+	font: 12px "PT Sans", sans-serif !important;
 }
 
 .dsq-request-user-avatar {
@@ -87,6 +87,6 @@
 }
 
 .dsq-comment-text {
-	font-size: 12px;
+	font-size: 12px !important;
 	line-height: 12px !important;
 }
