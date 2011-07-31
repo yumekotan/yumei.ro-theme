@@ -14,6 +14,9 @@
 	border: 1px solid #ffffff; 
 	color: #ffffff;
 	font: bold 12px "PT Sans", sans-serif;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
 }
 
 #dsq-post-button:hover {
@@ -27,9 +30,21 @@
 #dsq-content .dsq-comment-header {
 	background: #ffd2ae !important;
 	border: 1px solid #fdb37c !important;
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
 }
 
 .dsq-button-small {
+	background: #fdb37c !important;
+	border: 1px solid #ffffff !important;
+	color: #ffffff !important;
+	font: bold 12px "PT Sans", sans-serif !important;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.dsq-button-small:hover {
 	background: #fdb37c !important;
 	border: 1px solid #ffffff !important;
 	color: #ffffff !important;
@@ -45,6 +60,7 @@
 
 .dsq-request-user-avatar {
 	padding: 0 !important;
+	border: none !important;
 	-moz-border-radius: 0px !important;
 	-webkit-border-radius: 0px !important;
 	-webkit-box-shadow: 0px 0px 0px !important;
@@ -53,14 +69,16 @@
 
 .dsq-header-avatar {
 	padding: 0 !important;
+	border: none !important;
 	-moz-border-radius: 0px !important;
 	-webkit-border-radius: 0px !important;
 	-webkit-box-shadow: 0px 0px 0px !important;
 	-moz-box-shadow: 0px 0px 0px !important;
 }
 
-.dsq-avatar, .dsq-tt {
+.dsq-header-avatar, .dsq-avatar, .dsq-tt {
 	padding: 0 !important;
+	border: none !important;
 	-moz-border-radius: 0px !important;
 	-webkit-border-radius: 0px !important;
 	-webkit-box-shadow: 0px 0px 0px !important;
