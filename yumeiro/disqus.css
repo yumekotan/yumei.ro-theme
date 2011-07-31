@@ -46,7 +46,7 @@
 
 .dsq-button-small:hover {
 	background: #fdb37c !important;
-	border: 1px solid #ffffff !important;
+	border: 1px solid #fdb37c !important;
 	color: #ffffff !important;
 	font: bold 12px "PT Sans", sans-serif !important;
 	-webkit-border-radius: 0px !important;
@@ -76,17 +76,19 @@
 	-moz-box-shadow: 0px 0px 0px !important;
 }
 
-.dsq-header-avatar, .dsq-avatar, .dsq-tt {
+.dsq-comment .dsq-header-avatar a.dsq-avatar img {
 	padding: 0 !important;
-	border: none !important;
-	-moz-border-radius: 0px !important;
+	margin: 4 !important;
+	border: 1px solid #715a4a !important;
+	background: none !important;
 	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
 	-webkit-box-shadow: 0px 0px 0px !important;
 	-moz-box-shadow: 0px 0px 0px !important;
-	_background: none !important;
+}
 }
 
-.dsq-comment-text {
+.dsq-comment-body, .dsq-comment-message, .dsq-comment-text {
 	font-size: 12px !important;
 	line-height: 12px !important;
 }
