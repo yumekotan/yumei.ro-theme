@@ -78,7 +78,7 @@
 
 .dsq-comment .dsq-header-avatar a.dsq-avatar img {
 	padding: 0 !important;
-	margin: 4 !important;
+	margin: 4px !important;
 	border: 1px solid #715a4a !important;
 	background: none !important;
 	-webkit-border-radius: 0px !important;
