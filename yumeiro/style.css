@@ -164,7 +164,7 @@ div.tagcloud {
 
 #comments {
 	clear: both;
-	margin-top: 10px;
+	padding-top: 5px !important;
 }
 
 #container {
@@ -186,7 +186,7 @@ div.tagcloud {
 		margin: 228px 25px 0px 25px;
 		padding: 0px;
 		background: url('images/sidebarbg.png') repeat;
-		border: 1px solid #fed3ae;
+		border: 1px solid #fdb37c;
 		color: #715a4a;
 		font: 12px "PT Sans", sans-serif;
 		text-align: center;
