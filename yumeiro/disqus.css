@@ -22,15 +22,25 @@
 }
 
 #dsq-content .dsq-comment-header {
-	background: #fdb37c;
-	border: 1px solid #ffffff;
+	background: #fdb37c !important;
+	border: 1px solid #ffffff !important;
 }
 
 .dsq-button-small {
-	background: #fdb37c;
-	border: 1px solid #ffffff;
+	background: #fdb37c !important;
+	border: 1px solid #ffffff !important;
 }
 
 #dsq-sort-select {
 	font: 12px "PT Sans", sans-serif;
+}
+
+.dsq-request-user-avatar {
+	padding: 0;
+	border: 1px solid #715a4a;
+}
+
+.dsq-header-avatar {
+	padding: 0;
+	border: 1px solid #715a4a;
 }
