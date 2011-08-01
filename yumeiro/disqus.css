@@ -78,8 +78,8 @@
 
 .dsq-comment .dsq-header-avatar a.dsq-avatar img {
 	padding: 0 !important;
-	margin: 4px !important;
-	border: 1px solid #715a4a !important;
+	margin: 3px !important;
+	border: none !important;
 	background: none !important;
 	-webkit-border-radius: 0px !important;
 	-moz-border-radius: 0px !important;
@@ -90,18 +90,4 @@
 .dsq-comment-body, .dsq-comment-message, .dsq-comment-text {
 	font-size: 12px !important;
 	line-height: 12px !important;
-}
-
-.dsq-comment-site a {
-	font-weight: bold !important;
-	color: #fdb37c !important;
-	text-shadow: 1px 1px #ffffff !important;
-	text-decoration: none !important;
-}
-
-.dsq-comment-site {
-	font-weight: bold !important;
-	color: #ffffff !important;
-	text-shadow: 1px 1px #fdb37c !important;
-	text-decoration: none !important;
 }
