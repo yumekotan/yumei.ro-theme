@@ -92,7 +92,7 @@
 	-webkit-border-top-right-radius: 0px !important;
 }
 
-.dsq-comment-footer-reply.dsq-comment-footer-reply-active {
+.dsq-comment-footer-reply, .dsq-comment-footer-reply-active {
 	color: #fdb37c !important;
 	font: bold 12px "PT Sans", sans-serif !important;
 }
