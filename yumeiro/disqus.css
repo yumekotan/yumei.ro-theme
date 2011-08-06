@@ -1,14 +1,3 @@
-#dsq-content #dsq-form-area .dsq-textarea .dsq-textarea-wrapper,
-#dsq-content #dsq-form-area .dsq-post-fields .dsq-input-wrapper {
-	border: 1px solid #fdb37c !important;
-	color: #715a4a !important;
-	font: 12px "PT Sans", sans-serif !important;
-	-moz-border-radius: 0px !important;
-	-webkit-border-radius: 0px !important;
-	-webkit-box-shadow: 0px 0px 0px !important;
-	-moz-box-shadow: 0px 0px 0px !important;
-}
-
 .dsq-textarea-wrapper {
 	border: 1px solid #fdb37c !important;
 	color: #715a4a !important;
@@ -29,6 +18,14 @@
 	border-radius: 0px !important;
 }
 
+#dsq-post-button:hover {
+	background: #fdb37c !important;  
+	border: 1px solid #fdb37c !important;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+}
+
 .dsq-button {
 	background: #fdb37c !important;  
 	border: 1px solid #ffffff !important; 
@@ -39,7 +36,7 @@
 	border-radius: 0px !important;
 }
 
-#dsq-post-button:hover, .ds-button:hover {
+.dsq-button:hover {
 	background: #fdb37c !important;  
 	border: 1px solid #fdb37c !important;
 	-webkit-border-radius: 0px !important;
@@ -76,18 +73,6 @@
 	border-radius: 0px !important;
 }
 
-.dsq-comment-footer-reply-tab {
-	background: #ffd2ae !important;
-	border: 1px solid #fdb37c !important;
-	border-bottom: 0px !important;
-	-webkit-border-top-left-radius: 0px !important;
-	-webkit-border-top-right-radius: 0px !important;
-}
-
-.dsq-comment-footer-reply, .dsq-comment-footer-reply-active {
-	color: #fdb37c !important;
-	font: bold 12px "PT Sans", sans-serif !important;
-}
 
 .dsq-button-small:hover {
 	background: #fdb37c !important;
@@ -97,6 +82,19 @@
 	-webkit-border-radius: 0px !important;
 	-moz-border-radius: 0px !important;
 	border-radius: 0px !important;
+}
+
+.dsq-comment-footer-reply-tab {
+	background: #ffd2ae !important;
+	border: 1px solid #fdb37c !important;
+	border-bottom: 0px !important;
+	-webkit-border-top-left-radius: 0px !important;
+	-webkit-border-top-right-radius: 0px !important;
+}
+
+.dsq-comment-footer-reply.dsq-comment-footer-reply-active {
+	color: #fdb37c !important;
+	font: bold 12px "PT Sans", sans-serif !important;
 }
 
 #dsq-sort-select {
