@@ -92,6 +92,11 @@
 	-webkit-border-top-right-radius: 0px !important;
 }
 
+.dsq-comment-footer-reply-active {
+	color: #fdb37c !important;
+	font: bold 12px "PT Sans", sans-serif !important;
+}
+
 #dsq-sort-select {
 	font: 12px "PT Sans", sans-serif !important;
 }
@@ -128,9 +133,4 @@
 .dsq-comment-body, .dsq-comment-message, .dsq-comment-text {
 	font-size: 12px !important;
 	line-height: 12px !important;
-}
-
-.dsq-comment-footer-reply, .dsq-comment-footer-reply-active {
-	color: #fdb37c !important;
-	font: bold 12px "PT Sans", sans-serif !important;
 }
