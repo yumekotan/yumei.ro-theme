@@ -44,6 +44,11 @@
 	-webkit-border-radius: 0px !important;
 }
 
+#dsq-new-post {
+	background: none !important;
+	border: none !important;
+}
+
 .dsq-post-area {
 	background: #ffd2ae !important;
 	border: 1px solid #fdb37c !important;
