@@ -91,6 +91,7 @@
 	border-radius: 0px !important;
 	-webkit-border-top-left-radius: 0px !important;
 	-webkit-border-top-right-radius: 0px !important;
+	-moz-border-radius: 0px !important;
 }
 
 .dsq-comment-footer-reply-active {
@@ -134,8 +135,4 @@
 .dsq-comment-body, .dsq-comment-message, .dsq-comment-text {
 	font-size: 12px !important;
 	line-height: 12px !important;
-}
-
-#at_msg, #at16p label, #at16nms, #at16sas, #at_share .at_item, #at16p, #at15s, #at16p form input, #at16p textarea {
-	font: "PT Sans", sans-serif !important;
 }
