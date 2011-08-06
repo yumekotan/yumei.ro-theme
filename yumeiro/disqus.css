@@ -73,7 +73,6 @@
 	border-radius: 0px !important;
 }
 
-
 .dsq-button-small:hover {
 	background: #fdb37c !important;
 	border: 1px solid #fdb37c !important;
@@ -94,6 +93,10 @@
 	-moz-border-radius: 0px !important;
 	color: #fdb37c !important;
 	font: bold 12px "PT Sans", sans-serif !important;
+	font-weight: bold !important;
+	font-size: 12px !important;
+	font-family: "PT Sans" !important;
+	text-shadow: 0px 0px !important;
 }
 
 #dsq-sort-select {
