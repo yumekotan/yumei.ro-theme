@@ -94,6 +94,16 @@
 	-moz-border-radius: 0px !important;
 }
 
+#dsq-comment-footer-reply-264142454 {
+	background: #ffd2ae !important;
+	border: 1px solid #fdb37c !important;
+	border-bottom: 0px !important;
+	border-radius: 0px !important;
+	-webkit-border-top-left-radius: 0px !important;
+	-webkit-border-top-right-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+}
+
 .dsq-comment-footer-reply-active {
 	color: #fdb37c !important;
 	font: bold 12px "PT Sans", sans-serif !important;
