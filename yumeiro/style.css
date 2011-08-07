@@ -144,6 +144,11 @@ div.tagcloud {
 	margin-right: 2px;
 }
 
+.favorites-last {
+	border: 1px solid #715a4a;
+	margin-right: 0px;
+}
+
 #container, #footer {
     width: 940px;
 }
