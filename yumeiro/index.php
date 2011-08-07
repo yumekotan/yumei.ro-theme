@@ -46,10 +46,10 @@
                 <? the_content("Read more &raquo;"); ?>
 				<div class="post-end">
 					<span class="post-end-links">
-						<span class="permalink"><img id="permalink-image" src="/wp-content/themes/yumeiro/images/permalink.png" /> <a href="<? the_permalink(); ?>">Permalink</a></span>
+						<span class="permalink"><a href="<? the_permalink(); ?>">Permalink</a></span>
 						<? if ($is_list) { // just a comment link ?>
 						<span class="comments-link">
-							<img id="comments-image" src="/wp-content/themes/yumeiro/images/comments.png" /> <?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'yumeiro' ) . '</span>', _x( '1', 'comments number', 'yumeiro' ), _x( '%', 'comments number', 'yumeiro' ) ); ?>
+							<?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'yumeiro' ) . '</span>', _x( '1', 'comments number', 'yumeiro' ), _x( '%', 'comments number', 'yumeiro' ) ); ?>
 						</span>
 						<? } ?>
 					</span>

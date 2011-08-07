@@ -67,7 +67,7 @@ p.post-info {
 	font-size: 12px;
 	line-height: 20px;
 	margin-bottom: 12px;
-	padding-left: 12px;
+	padding-left: 13px;
 	background: url('images/page.png') no-repeat left 4px;
 }
 
@@ -165,9 +165,16 @@ div.tagcloud {
 	
 }
 
+.permalink {
+	padding-left: 10px;
+	background: url('images/permalink.png') no-repeat left 4px;
+}
+
 .comments-link{
 	position: relative;
 	left: 30px;
+	padding-left: 15px;
+	background: url('images/comments.png') no-repeat left 4px;
 }
 
 #comments {
