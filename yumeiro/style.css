@@ -53,7 +53,7 @@ h1.post-title {
 .post-title a:active {text-decoration: none;}
 
 li.post:first-child {
-	padding-top: 10px;
+	padding-top: 0px;
 	background: none;
 }
 
@@ -137,6 +137,10 @@ ul, li {
 
 div.tagcloud {
 	padding: 0px 10px 10px 10px;
+}
+
+.favorites {
+	border: 1px solid #fef4e0;
 }
 
 #container, #footer {
