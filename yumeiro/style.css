@@ -36,6 +36,9 @@ a:visited {text-decoration: none;}
 a:hover {text-decoration: underline;}
 a:active {text-decoration: underline;}
 
+a.imagelink:hover {text-decoration: none;}
+a.imagelink:active {text-decoration: none;}
+
 h1, h2, h3, h4, h5 {
     margin: 0;
 	padding: 0;
