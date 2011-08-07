@@ -52,15 +52,15 @@ h1.post-title {
 .post-title a:hover {text-decoration: none;}
 .post-title a:active {text-decoration: none;}
 
-li.post {
-	clear: both;
-	margin-top: 40px;
-	background: url('images/separator.png') no-repeat center top;
+li.post:first-child {
+	padding-top: 0px;
+	background: none;
 }
 
-li.post:first-child {
-	margin-top: 0px;
-	background: none;
+li.post {
+	clear: both;
+	padding-top: 40px;
+	background: url('images/separator.png') no-repeat center top;
 }
 
 p.post-info {
