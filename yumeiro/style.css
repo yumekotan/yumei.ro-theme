@@ -36,9 +36,6 @@ a:visited {text-decoration: none;}
 a:hover {text-decoration: underline;}
 a:active {text-decoration: underline;}
 
-a.imagelink:hover {text-decoration: none;}
-a.imagelink:active {text-decoration: none;}
-
 h1, h2, h3, h4, h5 {
     margin: 0;
 	padding: 0;
@@ -56,7 +53,14 @@ h1.post-title {
 .post-title a:active {text-decoration: none;}
 
 li.post {
-	clear:both;
+	clear: both;
+	margin-top: 40px;
+	background: url('images/separator.png') no-repeat center top;
+}
+
+li.post:first-child {
+	margin-top: 0px;
+	background: none;
 }
 
 p.post-info {
