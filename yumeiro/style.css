@@ -67,6 +67,8 @@ p.post-info {
 	font-size: 12px;
 	line-height: 20px;
 	margin-bottom: 12px;
+	padding-left: 12px;
+	background: url('images/page.png') no-repeat left 2px;
 }
 
 span.date {

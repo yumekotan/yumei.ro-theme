@@ -36,7 +36,7 @@
                     <a href="<? the_permalink(); ?>"><? the_title(); ?></a>
                 </h1>
                 <p class="post-info">
-                    <img id="post-image" src="/wp-content/themes/yumeiro/images/page.png" /> By: 
+                    By: 
                     <span class="author"><? the_author_link(); ?></span>
                      | Published: 
                     <span class="date"><?php the_time('F j, Y'); ?></span>
