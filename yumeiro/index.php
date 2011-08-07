@@ -12,7 +12,6 @@
     </div>
 
     <div class="column" id="content-column">
-	<img id="faerie" src="/wp-content/themes/yumeiro/images/faerie.png" />
         <? if ( !have_posts() ) { ?>
             <div class="post">
                 <h1 class="post-title">Sorry...</h1>

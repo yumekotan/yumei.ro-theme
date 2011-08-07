@@ -129,17 +129,11 @@ div.tagcloud {
     height: 191px;
 }
 
-#title {
+#titlefull {
 	position: relative;
 	top: 154px;
 	float: right;
 	z-index: 10;
-}
-
-#faerie {
-	position: relative;
-	float: right;
-	z-index: 30;
 }
 
 .post-end {
