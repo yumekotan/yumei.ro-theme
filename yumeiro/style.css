@@ -71,7 +71,12 @@ p.post-info {
 	background: url('images/page.png') no-repeat left 4px;
 }
 
-span.date  .author {
+span.date  {
+	color: #fdb37c;
+	font-weight: bold;
+}
+
+span.author  {
 	color: #fdb37c;
 	font-weight: bold;
 }
