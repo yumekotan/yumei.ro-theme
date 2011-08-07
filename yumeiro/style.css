@@ -167,14 +167,14 @@ div.tagcloud {
 
 .permalink {
 	padding-left: 10px;
-	background: url('images/permalink.png') no-repeat left 4px;
+	background: url('images/permalink.png') no-repeat left 2px;
 }
 
 .comments-link{
 	position: relative;
 	left: 30px;
 	padding-left: 15px;
-	background: url('images/comments.png') no-repeat left 4px;
+	background: url('images/comments.png') no-repeat left 2px;
 }
 
 #comments {
