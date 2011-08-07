@@ -71,7 +71,7 @@ p.post-info {
 	background: url('images/page.png') no-repeat left 4px;
 }
 
-span.date {
+span.date  .author {
 	color: #fdb37c;
 	font-weight: bold;
 }
@@ -159,10 +159,6 @@ div.tagcloud {
 .post-end-links {
 	display: inline-block;
 	float: left !important;
-}
-
-.addthis_share_buttons {
-	
 }
 
 .permalink {
