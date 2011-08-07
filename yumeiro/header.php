@@ -13,5 +13,5 @@
     <body>
         <div id="container">
             <div id="header">
-			<a class="imagelink" href="http://yumei.ro/><img id="titlefull" src="/wp-content/themes/yumeiro/images/titlefull.png" alt="yumei.ro 「夢色」" /></a>
+			<a class="imagelink" href="http://yumei.ro><img id="titlefull" src="/wp-content/themes/yumeiro/images/titlefull.png" alt="yumei.ro 「夢色」" /></a>
 			</div> <!-- END HEADER -->
