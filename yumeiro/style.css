@@ -102,14 +102,9 @@ ul, li {
 	list-style-type: none;
 }
 
-#text-3 {
+.textwidget {
 	padding: 0px 10px 0px 10px;
 	text-align: justify;
-}
-
-#text-2 {
-	padding: 0px 10px 10px 10px;
-	text-align: center;
 }
 
 .widget_search .screen-reader-text {
@@ -136,7 +131,7 @@ ul, li {
 }
 
 div.tagcloud {
-	padding: 0px 10px 0px 10px;
+	padding: 0px 10px 10px 10px;
 }
 
 #container, #footer {
