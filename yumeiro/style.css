@@ -141,6 +141,7 @@ div.tagcloud {
 
 .favorites {
 	border: 1px solid #715a4a;
+	margin-right: 2px;
 }
 
 #container, #footer {
