@@ -212,6 +212,48 @@
     <Attribute name="footer.text_color">#ffffff</Attribute>
   </ConfigMap>
 
+  <!-- Music lessons (10:00am-11:00am) -->
+  <ConfigMap type="Skin">
+    <Trait name="GetDressed">10:00am-11:00am</Trait>
+    <Attribute name="header.background_color">#ffffff</Attribute>
+    <Attribute name="header.tile_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/musiclessons_bg.jpg</Attribute>
+    <Attribute name="header.center_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/musiclessons.jpg</Attribute>
+    <Attribute name="header.link_color">#ffffff</Attribute>
+    <Attribute name="header.text_color">#ffffff</Attribute>
+    <Attribute name="header.logo">white</Attribute>
+    <Attribute name="navbar.background_color">#8e9767</Attribute>
+    <Attribute name="navbar.border_color">#8e9767</Attribute>
+    <Attribute name="navbar.icons.icon_color">#000000</Attribute>
+    <Attribute name="navbar.tab.selected.link_color">#8e9767</Attribute>
+    <Attribute name="navbar.tab.unselected.link_color">#ffffff</Attribute>
+    <Attribute name="navbar.tab.unselected.border_color">#ffffff</Attribute>
+    <Attribute name="navbar.contacts.contact_color">#ffffff</Attribute>
+    <Attribute name="navbar.contacts.status_color">#ffffff</Attribute>
+    <Attribute name="navbar.contacts.hover_background_color">#8e9767</Attribute>
+    <Attribute name="navbar.contacts.card.border_color">#ffffff</Attribute>
+    <Attribute name="navbar.contacts.invite.background_color">#8e9767</Attribute>
+    <Attribute name="navbar.contacts.invite.border_color">#ffffff</Attribute>
+    <Attribute name="navbar.contacts.invite.text_color">#ffffff</Attribute>
+    <Attribute name="navbar.contacts.invite.link_color">#ffffff</Attribute>
+    <Attribute name="gadget_area.chat.header.background_color">#ffffff</Attribute>
+    <Attribute name="gadget_area.chat.header.highlight.background_color">#ffffff</Attribute>
+    <Attribute name="gadget_area.tab.border_color">#ffffff</Attribute>
+    <Attribute name="gadget_area.tab.selected.background_color">#ffffff</Attribute>
+    <Attribute name="gadget_area.tab.selected.text_color">#8e9767</Attribute>
+    <Attribute name="gadget_area.tab.unselected.background_color">#8e9767</Attribute>
+    <Attribute name="gadget_area.tab.unselected.text_color">#ffffff</Attribute>
+    <Attribute name="gadget_area.border_color">#8e9767</Attribute>
+    <Attribute name="gadget_area.gadget.header.background_color">#8e9767</Attribute>
+    <Attribute name="gadget_area.gadget.header.text_color">#ffffff</Attribute>
+    <Attribute name="gadget_area.gadget.border_color">#8e9767</Attribute>
+    <Attribute name="gadget_area.gadget.hover.border_color">#8e9767</Attribute>
+    <Attribute name="gadget_area.gadget.body.link_color">#8e9767</Attribute>
+    <Attribute name="gadget_area.icons.icon_color">#ffffff</Attribute>
+    <Attribute name="footer.background_color">#8e9767</Attribute>
+    <Attribute name="footer.link_color">#ffffff</Attribute>
+    <Attribute name="footer.text_color">#ffffff</Attribute>
+  </ConfigMap>
+
   <!-- Putting on Ciel's pajamas (10:00pm-10:30pm) -->
   <ConfigMap type="Skin">
     <Trait name="Pajamas">10:00pm-10:30pm</Trait>
