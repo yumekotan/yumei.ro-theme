@@ -518,7 +518,7 @@
  
   <!-- Eating lunch (12:00pm-1:00pm) -->
   <ConfigMap type="Skin">
-    <Trait name="TimeOfDay">12:00pm-11:00pm</Trait>
+    <Trait name="TimeOfDay">12:00pm-1:00pm</Trait>
     <Attribute name="header.background_color">#ffffff</Attribute>
     <Attribute name="header.tile_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/lunch_bg.jpg</Attribute>
     <Attribute name="header.center_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/lunch.jpg</Attribute>
