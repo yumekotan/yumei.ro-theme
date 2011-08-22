@@ -96,10 +96,10 @@
 
   <!-- Music lessons (10:00am-11:00am) -->
   <ConfigMap type="Skin">
-    <Trait name="GetDressed">10am-11am</Trait>
+    <Trait name="GetDressed">10:00am-11:00am</Trait>
     <Attribute name="header.background_color">#ffffff</Attribute>
-    <Attribute name="header.tile_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/musiclessons_bg.jpg</Attribute>
-    <Attribute name="header.center_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/musiclessons.jpg</Attribute>
+    <Attribute name="header.tile_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/musiclesson_bg.jpg</Attribute>
+    <Attribute name="header.center_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/musiclesson.jpg</Attribute>
     <Attribute name="header.link_color">#ffffff</Attribute>
     <Attribute name="header.text_color">#ffffff</Attribute>
     <Attribute name="header.logo">white</Attribute>
