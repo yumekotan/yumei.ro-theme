@@ -777,8 +777,8 @@
     <Attribute name="header.link_color">#ffffff</Attribute>
     <Attribute name="header.text_color">#ffffff</Attribute>
     <Attribute name="header.logo">white</Attribute>
-    <Attribute name="navbar.background_color">#366f3f</Attribute>
-    <Attribute name="navbar.border_color">#366f3f</Attribute>
+    <Attribute name="navbar.background_color">#65a83e</Attribute>
+    <Attribute name="navbar.border_color">#65a83e</Attribute>
     <Attribute name="navbar.icons.icon_color">#000000</Attribute>
     <Attribute name="navbar.tab.selected.link_color">#32683b</Attribute>
     <Attribute name="navbar.tab.unselected.link_color">#ffffff</Attribute>
@@ -805,7 +805,7 @@
     <Attribute name="gadget_area.gadget.hover.border_color">#32683b</Attribute>
     <Attribute name="gadget_area.gadget.body.link_color">#32683b</Attribute>
     <Attribute name="gadget_area.icons.icon_color">#ffffff</Attribute>
-    <Attribute name="footer.background_color">#366f3f</Attribute>
+    <Attribute name="footer.background_color">#65a83e</Attribute>
     <Attribute name="footer.link_color">#ffffff</Attribute>
     <Attribute name="footer.text_color">#ffffff</Attribute>
   </ConfigMap>
