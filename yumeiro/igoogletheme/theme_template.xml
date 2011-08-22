@@ -595,7 +595,7 @@
     <Attribute name="gadget_area.gadget.hover.border_color">#529e8c</Attribute>
     <Attribute name="gadget_area.gadget.body.link_color">#529e8c</Attribute>
     <Attribute name="gadget_area.icons.icon_color">#ffffff</Attribute>
-    <Attribute name="footer.background_color">#529e8c</Attribute>
+    <Attribute name="footer.background_color">#8b8668</Attribute>
     <Attribute name="footer.link_color">#ffffff</Attribute>
     <Attribute name="footer.text_color">#ffffff</Attribute>
   </ConfigMap>
@@ -637,7 +637,7 @@
     <Attribute name="gadget_area.gadget.hover.border_color">#8096a6</Attribute>
     <Attribute name="gadget_area.gadget.body.link_color">#8096a6</Attribute>
     <Attribute name="gadget_area.icons.icon_color">#ffffff</Attribute>
-    <Attribute name="footer.background_color">#8096a6</Attribute>
+    <Attribute name="footer.background_color">#c6bea5</Attribute>
     <Attribute name="footer.link_color">#ffffff</Attribute>
     <Attribute name="footer.text_color">#ffffff</Attribute>
   </ConfigMap>
@@ -679,7 +679,7 @@
     <Attribute name="gadget_area.gadget.hover.border_color">#529e8c</Attribute>
     <Attribute name="gadget_area.gadget.body.link_color">#529e8c</Attribute>
     <Attribute name="gadget_area.icons.icon_color">#ffffff</Attribute>
-    <Attribute name="footer.background_color">#529e8c</Attribute>
+    <Attribute name="footer.background_color">#8b8668</Attribute>
     <Attribute name="footer.link_color">#ffffff</Attribute>
     <Attribute name="footer.text_color">#ffffff</Attribute>
   </ConfigMap>
@@ -805,7 +805,7 @@
     <Attribute name="gadget_area.gadget.hover.border_color">#32683b</Attribute>
     <Attribute name="gadget_area.gadget.body.link_color">#32683b</Attribute>
     <Attribute name="gadget_area.icons.icon_color">#ffffff</Attribute>
-    <Attribute name="footer.background_color">#32683b</Attribute>
+    <Attribute name="footer.background_color">#366f3f</Attribute>
     <Attribute name="footer.link_color">#ffffff</Attribute>
     <Attribute name="footer.text_color">#ffffff</Attribute>
   </ConfigMap>
@@ -931,7 +931,7 @@
     <Attribute name="gadget_area.gadget.hover.border_color">#32683b</Attribute>
     <Attribute name="gadget_area.gadget.body.link_color">#32683b</Attribute>
     <Attribute name="gadget_area.icons.icon_color">#ffffff</Attribute>
-    <Attribute name="footer.background_color">#32683b</Attribute>
+    <Attribute name="footer.background_color">#7dc49c</Attribute>
     <Attribute name="footer.link_color">#ffffff</Attribute>
     <Attribute name="footer.text_color">#ffffff</Attribute>
   </ConfigMap>
