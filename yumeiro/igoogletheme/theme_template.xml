@@ -13,8 +13,8 @@
 
   <!-- Ciel sleeping (11:00pm-5:00am) -->
   <ConfigMap type="Skin">
-    <Trait name="SleepMorning">12:00am-5:00am</Trait>
-	<Trait name="SleepNight">11:00pm-12:00am</Trait>
+    <Trait name="TimeOfDay">12:00am-5:00am</Trait>
+	<Trait name="TimeOfDay">11:00pm-12:00am</Trait>
     <Attribute name="header.background_color">#ffffff</Attribute>
     <Attribute name="header.tile_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/sleep_bg.jpg</Attribute>
     <Attribute name="header.center_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/sleep.jpg</Attribute>
@@ -56,7 +56,7 @@
   
   <!-- Sebastian getting dressed (5:00am-5:30am) -->
   <ConfigMap type="Skin">
-    <Trait name="GetDressed">5:00am-5:30am</Trait>
+    <Trait name="TimeOfDay">5:00am-5:30am</Trait>
     <Attribute name="header.background_color">#ffffff</Attribute>
     <Attribute name="header.tile_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/getdressed_bg.jpg</Attribute>
     <Attribute name="header.center_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/getdressed.jpg</Attribute>
@@ -98,7 +98,7 @@
 
   <!-- Music lesson (10:00am-11:00am) -->
   <ConfigMap type="Skin">
-    <Trait name="GetDressed">10:00am-11:00am</Trait>
+    <Trait name="TimeOfDay">10:00am-11:00am</Trait>
     <Attribute name="header.background_color">#ffffff</Attribute>
     <Attribute name="header.tile_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/musiclesson_bg.jpg</Attribute>
     <Attribute name="header.center_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/musiclesson.jpg</Attribute>
@@ -140,7 +140,7 @@
 
   <!-- Cleaning sitting room (11:00am-11:30am) -->
   <ConfigMap type="Skin">
-    <Trait name="GetDressed">11:00am-11:30am</Trait>
+    <Trait name="TimeOfDay">11:00am-11:30am</Trait>
     <Attribute name="header.background_color">#ffffff</Attribute>
     <Attribute name="header.tile_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/cleanroom_bg.jpg</Attribute>
     <Attribute name="header.center_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/cleanroom.jpg</Attribute>
@@ -182,7 +182,7 @@
  
   <!-- Starting fire (11:30am-12:00pm) -->
   <ConfigMap type="Skin">
-    <Trait name="GetDressed">11:30am-12:00pm</Trait>
+    <Trait name="TimeOfDay">11:30am-12:00pm</Trait>
     <Attribute name="header.background_color">#ffffff</Attribute>
     <Attribute name="header.tile_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/startfire_bg.jpg</Attribute>
     <Attribute name="header.center_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/startfire.jpg</Attribute>
@@ -224,7 +224,7 @@
  
   <!-- Putting on Ciel's pajamas (10:00pm-10:30pm) -->
   <ConfigMap type="Skin">
-    <Trait name="Pajamas">10:00pm-10:30pm</Trait>
+    <Trait name="TimeOfDay">10:00pm-10:30pm</Trait>
     <Attribute name="header.background_color">#ffffff</Attribute>
     <Attribute name="header.tile_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/pajamas_bg.jpg</Attribute>
     <Attribute name="header.center_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/pajamas.jpg</Attribute>
@@ -266,7 +266,7 @@
   
   <!-- Tucking Ciel in (10:30pm-11:00pm) -->
   <ConfigMap type="Skin">
-    <Trait name="Pajamas">10:30pm-11:00pm</Trait>
+    <Trait name="TimeOfDay">10:30pm-11:00pm</Trait>
     <Attribute name="header.background_color">#ffffff</Attribute>
     <Attribute name="header.tile_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/tuckin_bg.jpg</Attribute>
     <Attribute name="header.center_image.url">http://yumei.ro/wp-content/themes/yumeiro/igoogletheme/tuckin.jpg</Attribute>
