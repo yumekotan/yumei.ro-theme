@@ -66,9 +66,16 @@ li.post {
 p.post-info {
 	font-size: 12px;
 	line-height: 20px;
-	margin-bottom: 12px;
 	padding-left: 13px;
 	background: url('images/page.png') no-repeat left 4px;
+}
+
+p.post-tags {
+	font-size: 12px;
+	line-height: 20px;
+	margin-bottom: 12px;
+	padding-left: 13px;
+	background: url('images/tag.png') no-repeat left 3px;
 }
 
 span.date  {

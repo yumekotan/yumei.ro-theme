@@ -15,7 +15,6 @@
         <? if ( !have_posts() ) { ?>
             <div class="post">
                 <h1 class="post-title">Sorry...</h1>
-                <hr size="1"/>
                 <p>This page does not exist or has been deleted.</p>
             </div>
         <? } else { // if we have posts ?>
@@ -43,6 +42,9 @@
 					 @ 
 					<span class="date"><?php the_time('g:i a'); ?></span>
                 </p>
+				<p class="post-tags">
+					<span>Tags: <? the_tags(); ?></span>
+				</p>
                 <? the_content("Read more &raquo;"); ?>
 				<div class="post-end">
 					<span class="post-end-links">
