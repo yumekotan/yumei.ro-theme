@@ -43,7 +43,7 @@
 					<span class="date"><?php the_time('g:i a'); ?></span>
                 </p>
 				<p class="post-tags">
-					<span>Tags: <? the_tags(); ?></span>
+					<span><? the_tags(); ?></span>
 				</p>
                 <? the_content("Read more &raquo;"); ?>
 				<div class="post-end">
