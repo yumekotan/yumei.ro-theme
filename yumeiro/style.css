@@ -158,18 +158,19 @@ div.tagcloud {
 }
 
 .caption {
-	height: 27px;
-	width: 77px;
+	width: 75px;
+	padding: 1px;
 	font: 12px "PT Sans", sans-serif;
 	text-align: center;
 	line-height: 12px;
 	margin-right: 2px;
 	float: left;
+	
 }	
 
 .caption-last {
-	height: 27px;
-	width: 77px;
+	width: 75px;
+	padding: 1px;
 	font: 12px "PT Sans", sans-serif;
 	text-align: center;
 	line-height: 12px;
