@@ -20,6 +20,7 @@ html, body, p {
     padding: 0;
     display: block;
     font: "PT Sans", sans-serif;
+	clear: both;
 }
 
 body {
@@ -145,6 +146,7 @@ div.tagcloud {
 	width: 75px;
 	border: 1px solid #715a4a;
 	margin-right: 2px;
+	float: left;
 }
 
 .favorites-last {
@@ -152,6 +154,25 @@ div.tagcloud {
 	width: 75px;
 	border: 1px solid #715a4a;
 	margin-right: 0px;
+	float: left;
+}
+
+.caption {
+	width: 75px;
+	font: 12px "PT Sans", sans-serif;
+	text-align: center;
+	line-height: 12px;
+	margin-right: 2px;
+	float: left;
+}	
+
+.caption-last {
+	width: 75px;
+	font: 12px "PT Sans", sans-serif;
+	text-align: center;
+	line-height: 12px;
+	margin-right: 0px;
+	float: left;
 }
 
 #container, #footer {
